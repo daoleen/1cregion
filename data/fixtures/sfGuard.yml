@@ -6,6 +6,7 @@ sfGuardUser:
     username:       admin
     password:       admin
     is_super_admin: true
+    is_active: true
     Groups:         [Group_admin]
 
 sfGuardGroup:
