@@ -1,0 +1,17 @@
+cache/*
+log/*
+web/uploads/*
+config/databases.yml
+lib/filter/doctrine/base/Base*
+lib/filter/doctrine/*Plugin/base/Base*
+lib/form/doctrine/base/Base*
+lib/form/doctrine/*Plugin/base/Base*
+lib/model/doctrine/base/Base*
+lib/model/doctrine/*Plugin/base/Base*
+lib/model/om/*
+lib/model/map/*
+lib/task/capistrano*
+error.log
+config/ProjectConfiguration.class.php
+config/deploy.rb
+capifony/*

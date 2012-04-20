@@ -1,0 +1,41 @@
+/* 
+    Document   : about
+    Created on : 14.04.2012, 21:33:48
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#about_content {
+    width: 650px;
+    float: left;
+}
+
+#central_block { 
+    width: 400px;
+    margin: 0 auto;
+    color: #003300;
+}
+
+#authorization_block {
+    margin: 10px 5px;
+    padding: 5px 5px;
+    width: 300px;
+    float: left;
+    border: 1px solid #660000;
+}
+
+
+#content form {
+    padding: 10px 15px;
+}
+
+#content form tr {
+    height: 30px;
+}
+
+.action {
+    font-weight: bold;
+    color: #660000;
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_guard_plugin:
+    remember_key_expiration_age:  1209600   # 14 дней
+    remember_cookie_name: 1cRegion
+    activate_token: 6741t
+    
+    success_signin_url:     @homepage
+    success_signout_url:   @homepage

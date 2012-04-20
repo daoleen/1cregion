@@ -1,0 +1,34 @@
+sfGuardUser:
+  User_admin:
+    first_name:     Alex
+    last_name:      Kozlov
+    email_address:  alexssource@gmail.com
+    username:       admin
+    password:       admin
+    is_super_admin: true
+    Groups:         [Group_admin]
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin, Permission_freelancer, Permission_customer]
+  Group_freelancer:
+    name:           freelancer
+    description:  Freelancer group
+    Permissions:  [Permission_freelancer]
+  Group_customer:
+    name:           customer
+    description:  Customer group
+    Permissions:  [Permission_customer]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+  Permission_freelancer:
+    name:   freelancer
+    description:  Freelancer permission
+  Permission_customer:
+    name: customer
+    description: Customer permission
