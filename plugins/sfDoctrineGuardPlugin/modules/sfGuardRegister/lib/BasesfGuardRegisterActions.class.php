@@ -45,7 +45,7 @@ class BasesfGuardRegisterActions extends sfActions
 public function sendmail($user, $password) {
       $token = Helper::getUserActivationToken($user->getUsername(), $user->getEmailAddress());
       $message = $this->getMailer()->compose(
-              array("admin@1cregion.ru" => "robot 1cregion.ru"),
+              array("admin@1cregion.ru" => "1cregion.ru"),
               $user->getEmailAddress(),
               'Успешная регистрация',
 <<<EOF
