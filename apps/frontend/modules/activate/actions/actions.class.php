@@ -15,10 +15,10 @@ class activateActions extends sfActions
   *
   * @param sfRequest $request A request object
   */
-  public function executeActivateUser(sfWebRequest $request)
+  public function executeActivateuser(sfWebRequest $request)
   {
       $user = sfGuardUser::getByUsername($request->getParameter('username'));
-      $token_original = Helper::getUserActivationToken($user->getUsername(), $user->getEmailAddress);
+      $token_original = Helper::getUserActivationToken($user->getUsername(), $user->getEmailAddress());
       
       if($token_original != $request->getParameter('token')) {
           $this->getUser()->setFlash('notice', 'Bad token value');
@@ -28,7 +28,7 @@ class activateActions extends sfActions
           $user->setIsActive(true);
           $user->save();
           $this->getUser()->signIn($user);
-          $this->redirect404();
+          $this->redirect('@homepage');
       }
   }
 }

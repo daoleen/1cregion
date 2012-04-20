@@ -15,6 +15,6 @@ class sfGuardUser extends PluginsfGuardUser
     public static function getByUsername($username) {
         $query = sfGuardUserTable::getInstance()->createQuery('u')
                 ->where('u.username = ?', $username);
-        return $query->execute();
+        return $query->fetchOne();
     }
 }
