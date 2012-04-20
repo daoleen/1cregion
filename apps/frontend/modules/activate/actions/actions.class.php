@@ -25,7 +25,7 @@ class activateActions extends sfActions
           $this->redirect('@homepage');
       }
       else {
-          $user->is_active = 1;
+          $user->setIsActive(true);
           $user->save();
           $this->getUser()->signIn($user);
           $this->redirect404();

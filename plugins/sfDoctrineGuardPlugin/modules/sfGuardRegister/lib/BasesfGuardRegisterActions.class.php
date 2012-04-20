@@ -56,7 +56,7 @@ public function sendmail($user, $password) {
 
 Обращаем ваше внимание, что на сайте требуется активация вашего профиля.
 Для активации перейдите по ссылке: 
-http://{$_SERVER['HTTP_HOST']}/activate/{$user->getUsername()}/token={$token}
+http://{$_SERVER['HTTP_HOST']}/activate/{$user->getUsername()}/{$token}
 EOF
       );
 
