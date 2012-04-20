@@ -12,6 +12,5 @@ lib/model/om/*
 lib/model/map/*
 lib/task/capistrano*
 error.log
-config/ProjectConfiguration.class.php
 config/deploy.rb
 capifony/*
