@@ -1,0 +1,7 @@
+Currency:
+  columns:
+    name: { type: string(16), notnull: true, unique: true }
+    coef: { type: float, length: 8, notnull: true, default: 1.0 }
+    
+  options:
+    charset: utf8

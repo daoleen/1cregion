@@ -1,0 +1,15 @@
+## Created by Alex Kozlov <alexssource@gmail.com>
+
+City:
+  Minsk:
+    name: Минск
+    Country: [Belarus]
+  Moscow:
+    name: Москва
+    Country: [Russia]
+  Kiev:
+    name: Киев
+    Country: [Ukraine]
+  Varshava:
+    name: Варшава
+    Country: [Poland]

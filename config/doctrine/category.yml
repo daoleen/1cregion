@@ -1,0 +1,12 @@
+Category:
+  actAs:
+    Sluggable:
+      fields: [name]
+      builder: ['tsDoctrineInflector', 'urlize']
+      
+  columns:
+    name: { type: string(64), notnull: true, unique: true }
+    description: { type: string(128) }
+    
+  options:
+    charset: utf8

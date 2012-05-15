@@ -1,0 +1,19 @@
+City:
+  actAs:
+    Sluggable:
+      fields: [name]
+      builder: ['tsDoctrineInflector', 'urlize']
+      
+  columns:
+    name: { type: string(64), notnull: true, unique: true }
+    country_id: { type: integer, notnull: true }
+    
+  relations:
+    Country:
+      class: Country
+      local: country_id
+      foreign: id
+      foreignAlias: Cities
+    
+  options:
+    charset: utf8

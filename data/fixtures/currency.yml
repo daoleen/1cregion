@@ -1,0 +1,6 @@
+## Created by Alex Kozlov <alexssource@gmail.com>
+
+Currency:
+  Ruble:
+    name: Рубль
+    coef: 1

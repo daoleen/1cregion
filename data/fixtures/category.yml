@@ -1,0 +1,16 @@
+Category:
+  OneC:
+    name: 1C
+    description: Разработка на 1C
+  Design:
+    name: Дизайн
+    description: Разработка графического дизайна для проектов
+  Sites:
+    name: Сайты
+    description: Разработка и администрирование сайтов
+  Accountancy:
+    name: Бухгалтерский учёт
+    description: Всё, что связано с бухгалтерией
+  Jurisprudence:
+    name: Юриспруденция
+    description: Практическая деятельность юристов и система их подготовки

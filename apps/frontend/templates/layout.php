@@ -24,6 +24,7 @@
           
         <?php if($sf_user->isAuthenticated()): ?>
             <div id="user_toolbar">
+                <a href="<?php echo url_for('@project_new'); ?>">Добавить проект</a>
                 <strong><?php echo $sf_user->getGuardUser(); ?></strong> 
                 <a href="<?php echo url_for("@sf_guard_signout"); ?>">Выход</a>
             </div>

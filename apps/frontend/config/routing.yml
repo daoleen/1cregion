@@ -21,6 +21,22 @@ sf_guard_forgot_password:
   url:  /forgot_password
   param:  { module: sfGuardForgotPassword, action: index }
   
+  
+project:
+  url: /project
+  class: sfDoctrineRouteCollection
+  options: { model: Project, type: list }
+
+# Show the description of project
+project_show:
+  url: /project/:id/:slug
+  class: sfDoctrineRoute
+  options: { model: Project, type: object }
+  param: { module: project, action: show }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
 
 user_activate:
   url:  /activate/:username/:token

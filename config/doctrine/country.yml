@@ -1,0 +1,11 @@
+Country:
+  actAs:
+    Sluggable:
+      fields: [name]
+      builder: ['tsDoctrineInflector', 'urlize']
+  
+  columns:
+    name: { type: string(64), notnull: true, unique: true }
+    
+  options:
+    charset: utf8
