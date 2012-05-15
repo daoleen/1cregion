@@ -1,0 +1,36 @@
+## Created by Alex Kozlov <alexssource@gmail.com>
+
+Comment:
+  actAs: { Timestampable: ~ }
+  columns:
+    project_id: { type: integer, notnull: true }
+    user_id: { type: integer, notnull: true }
+    cost: { type: float, length: 7 }
+    currency_id: { type: integer, notnull: true }
+    cost_type: { type: enum, values: ['цена за час', 'цена за день', 'цена за месяц', 'цена за проект'], default: 'цена за проект' }
+    term: { type: integer, unsigned: true }
+    term_options: { type: enum, values: ['Час','День', 'Неделя', 'Месяц', 'Год'], notnull: true, default: 'День' }
+    is_security_deal: { type: boolean, notnull: true, default: false }
+    is_active: { type: boolean, notnull: true, default: true }
+    is_candidate: { type: boolean, notnull: true, default: false }
+    is_performer: { type: boolean, notnull: true, default: false }
+    comment: { type: string(1000), notnull: true }
+    
+  relations:
+    Project:
+      class: Project
+      local: project_id
+      foreign: id
+      foreignAlias: Comments
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      foreignAlias: Comments
+    Currency:
+      class: Currency
+      local: currency_id
+      foreign: id
+    
+    options:
+      charset: utf8

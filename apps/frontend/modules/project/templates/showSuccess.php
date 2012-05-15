@@ -18,6 +18,10 @@
     Годен до: <?php echo $project->getExpiresAt(); ?>
 </p>
 
+<?php if($sf_user->isAuthenticated()): ?>
+    <?php include_component('comment', 'showcomments', array('projectId' => $project->getId())); ?>
+<?php endif; ?>
+
 <hr />
 
 <a href="<?php echo url_for('project/edit?id='.$project->getId()) ?>">Edit</a>

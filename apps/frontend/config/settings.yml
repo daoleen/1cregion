@@ -36,7 +36,7 @@ all:
     
     
     # List of used modules in frontend
-    enabled_modules:  [default, sfGuardAuth, sfGuardRegister, sfGuardForgotPassword]
+    enabled_modules:  [default, sfGuardAuth, sfGuardRegister, sfGuardForgotPassword, sfGuardPermission]
     
     # Action for Guard's modules
     login_module: sfGuardAuth

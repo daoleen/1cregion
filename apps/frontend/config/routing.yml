@@ -22,6 +22,11 @@ sf_guard_forgot_password:
   param:  { module: sfGuardForgotPassword, action: index }
   
   
+comment:
+  url: /comment
+  class: sfDoctrineRouteCollection
+  options: { model: Comment, type: list }
+  
 project:
   url: /project
   class: sfDoctrineRouteCollection
