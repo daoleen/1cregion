@@ -15,11 +15,11 @@ sfGuardGroup:
     description:    Administrator group
     Permissions:    [Permission_admin, Permission_freelancer, Permission_customer]
   Group_freelancer:
-    name:           freelancer
+    name:           фрилансер
     description:  Freelancer group
     Permissions:  [Permission_freelancer]
   Group_customer:
-    name:           customer
+    name:           работодатель
     description:  Customer group
     Permissions:  [Permission_customer]
 
