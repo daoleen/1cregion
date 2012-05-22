@@ -1,0 +1,14 @@
+## Created by Alex Kozlov <alexssource@gmail.com>
+
+Bonus:
+  columns:
+    user_id: { type: integer, notnull: true, unique: true, primary: true }
+    bonus: { type: float, notnull: true, default: 50.000 }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      type: one
+      foreignType: one
+      foreignAlias: Bonus

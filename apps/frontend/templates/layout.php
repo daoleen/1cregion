@@ -23,9 +23,11 @@
           </div>
           
         <?php if($sf_user->isAuthenticated()): ?>
+          <?php $guardUser = $sf_user->getGuardUser(); ?>
             <div id="user_toolbar">
+                <span style="color: #ccc;">Бонус: <b><?php echo $guardUser->Bonus->getBonus(); ?></b></span>
                 <a href="<?php echo url_for('@project_new'); ?>">Добавить проект</a>
-                <strong><?php echo $sf_user->getGuardUser(); ?></strong> 
+                <strong><?php echo $guardUser; ?></strong> 
                 <a href="<?php echo url_for("@sf_guard_signout"); ?>">Выход</a>
             </div>
         <?php endif; ?>

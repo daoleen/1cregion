@@ -21,10 +21,17 @@ class BasesfGuardRegisterActions extends sfActions
 
         $groupId = $this->form->getValue('group');
         if($this->form->isNew()) {
+            // подсоединяем юзера к группе
             $ug = new sfGuardUserGroup();
             $ug->setUserId($user->getId());
             $ug->setGroupId($groupId);
             $ug->save();
+            
+            // регистрируем ему бонусы
+            $bonus = new Bonus();
+            $bonus->setUserId($user->getId());
+            $bonus->setBonus(50.00);
+            $bonus->save();
         }
         else {
             $ug = sfGuardUserGroupTable::getInstance()->createQuery('q')
