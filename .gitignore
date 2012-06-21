@@ -10,7 +10,5 @@ lib/model/doctrine/base/Base*
 lib/model/doctrine/*Plugin/base/Base*
 lib/model/om/*
 lib/model/map/*
-lib/task/capistrano*
 error.log
 config/deploy.rb
-capifony/*
