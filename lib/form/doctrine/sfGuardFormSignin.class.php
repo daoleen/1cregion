@@ -18,5 +18,12 @@ class sfGuardFormSignin extends BasesfGuardFormSignin
       $this->widgetSchema['username']->setLabel("Логин");
       $this->widgetSchema['password']->setLabel("Пароль");
       $this->widgetSchema['remember']->setLabel("Запомнить");
+      
+      $this->widgetSchema['username']->setAttribute('class', 'autorisation_input_text');
+      $this->widgetSchema['password']->setAttribute('class', 'autorisation_input_text');
+  }
+  
+  public function getStylesheets() {
+      return array('authorisation_component.css' => null);
   }
 }

@@ -24,26 +24,12 @@
                     <span>Основное направление нашей биржи - это проекты, связанные с системой 1C, сайты, дизайн, а также специалисты по бухгалтерскому учету и юрисприденции.</span>
                     <h3>Проект находится в стадии разработки.</h3>
                 </div>
-                <div id="autorisation">
-                	<form action="#" method="post">
-                    	<table width="150" border="0">
-                        	<tr>
-                            	<td width="100">Логин</td>
-                                <td><input type="text" name="login" size="15" class="autorisation_input_text" /></td>
-                            </tr>
-                        	<tr>
-                            	<td width="100">Пароль</td>
-                                <td><input type="password" name="pass" size="15" class="autorisation_input_text" /></td>
-                            </tr>
-                            <tr>
-                            	<td colspan="2">
-                                	<a href="#">Регистрация</a> | 
-                                    <a href="#">Забыли пароль?</a> 
-                                    <input type="image" src="/images/login_button.jpg" value="Войти" class="authorisation_login" />
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
+                <div id="user_params_block">
+                    <?php if(!$sf_user->isAuthenticated()): ?>
+                        <?php include_component('sfGuardAuth', 'authorization'); ?>
+                    <?php else: ?>
+                        <span class="central"><?php echo $sf_user; ?></span>
+                    <?php endif; ?>
                 </div>
                 <div id="clear"></div>
             </div><!-- #headerContent -->

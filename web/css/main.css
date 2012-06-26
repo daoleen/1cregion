@@ -57,26 +57,14 @@ body #container {
 	text-decoration: underline;
 }
 
-/** авторизационный блок */
-#headerContent #autorisation {
+/** Блок в шапке страницы для отображения иформации о пользователе / логина */
+#headerContent #user_params_block {
 	margin: 35px auto;
 	width: auto;
 	padding: 5px 5px;
 	float: right;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 9px;
-	color: #000;
-	text-decoration: none;	
 }
 
-.autorisation_input_text {
-    width: 100px;
-}
-
-/** Кнопка войти */
-.authorisation_login {
-	margin: 3px 5px;
-}
 
 /** полоса меню */
 #header #menu {
