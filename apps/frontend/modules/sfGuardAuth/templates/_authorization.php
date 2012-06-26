@@ -15,7 +15,7 @@
         </tbody>
         <tfoot>
         <tr>
-            <td colspan="2">
+            <td colspan="2" align="center">
             <input type="image" value="Войти" src="/images/login_button.jpg" />
 
             <?php $routes = $sf_context->getRouting()->getRoutes() ?>

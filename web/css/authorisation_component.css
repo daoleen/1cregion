@@ -11,7 +11,18 @@
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 9px;
 	color: #000;
-	text-decoration: none;	
+	text-decoration: none;
+        text-align: left;
+}
+
+#autorisation a {
+    color: #000;
+    text-decoration: none;
+}
+
+#autorisation a:hover {
+    color: #121212;
+    text-decoration: underline;
 }
 
 /** стиль для текстового контролла */
@@ -22,4 +33,10 @@
 /** Кнопка войти */
 .authorisation_login {
 	margin: 3px 5px;
+}
+
+
+#signin_remember {
+    padding: 0;
+    margin: 0;
 }

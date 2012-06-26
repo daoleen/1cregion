@@ -238,6 +238,25 @@ body #container {
 	clear: both;
 }
 
+
+/** Блок для отображения ошибок и сообщений */
+#notice {
+    width: 50%;
+    border: 1px solid #af0a0a;
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+
+/** Критическая ошибка */
+.error {
+    color: #d33;
+}
+
+/** Предупреждение */
+.notification {
+    color: #414ec5;
+}
+
 .text_bold {
 	font-weight: bold;
 }
