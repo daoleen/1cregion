@@ -46,11 +46,15 @@ project_show:
 user_activate:
   url:  /activate/:username/:token
   param: { module: activate, action: activateuser }
+  
+about:
+  url:  /about
+  param: { module: about, action: index }
 
 # default rules
 homepage:
   url:   /
-  param: { module: about, action: index }
+  param: { module: main, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules

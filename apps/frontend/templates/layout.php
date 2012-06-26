@@ -9,49 +9,239 @@
     <?php include_javascripts() ?>
   </head>
   <body>
-      <div id="container">
-          <div id="header">
-              <div id="header_logo">
-                  <a href="<?php echo url_for("@homepage"); ?>"><img src="/images/logo.png" /></a>
-              </div>
-              <div id="header_title">
-                  <h1>1СRegion.ru - это биржа фриланса</h1>
-                  <p>Основное направление нашей биржи - это проекты связанные с ситемой 1С, сайты, дизайн, а также специалисты по бухгалтерскому учету и юрисприденции</p>
-                  <p class="action"><font size="4">Проект находится в стадии разработки.</font></p>
-              </div>
-              <div id="clear"></div>
-          </div>
-          
-        <?php if($sf_user->isAuthenticated()): ?>
-          <?php $guardUser = $sf_user->getGuardUser(); ?>
-            <div id="user_toolbar">
-                <span style="color: #ccc;">Бонус: <b><?php echo $guardUser->Bonus->getBonus(); ?></b></span>
-                <a href="<?php echo url_for('@project_new'); ?>">Добавить проект</a>
-                <strong><?php echo $guardUser; ?></strong> 
-                <a href="<?php echo url_for("@sf_guard_signout"); ?>">Выход</a>
-            </div>
-        <?php endif; ?>
-          
+    <div id="container">
+    	<div id="header">
+            <div id="upperLine"></div>
+            
+            <div id="headerContent">
+            	<div id="logo">
+                    <a href="<?php echo url_for('@homepage'); ?>">
+                    	<img src="/images/logo.png" />
+                    </a>
+                </div>
+                <div id="introduction">
+                	<h1>1CRegion.Ru - это биржа фриланса</h1>
+                    <span>Основное направление нашей биржи - это проекты, связанные с системой 1C, сайты, дизайн, а также специалисты по бухгалтерскому учету и юрисприденции.</span>
+                    <h3>Проект находится в стадии разработки.</h3>
+                </div>
+                <div id="autorisation">
+                	<form action="#" method="post">
+                    	<table width="150" border="0">
+                        	<tr>
+                            	<td width="100">Логин</td>
+                                <td><input type="text" name="login" size="15" class="autorisation_input_text" /></td>
+                            </tr>
+                        	<tr>
+                            	<td width="100">Пароль</td>
+                                <td><input type="password" name="pass" size="15" class="autorisation_input_text" /></td>
+                            </tr>
+                            <tr>
+                            	<td colspan="2">
+                                	<a href="#">Регистрация</a> | 
+                                    <a href="#">Забыли пароль?</a> 
+                                    <input type="image" src="/images/login_button.jpg" value="Войти" class="authorisation_login" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div id="clear"></div>
+            </div><!-- #headerContent -->
+            
+            <div id="menu">
+            	<div id="menu_block"><a href="<?php echo url_for('@homepage'); ?>">Главная</a></div>
+                <div id="menu_block"><a href="#">Профиль</a></div>
+                <div id="menu_block"><a href="<?php echo url_for('@project'); ?>">Проекты</a></div>
+                <div id="menu_block"><a href="#">Магазин</a></div>
+                <div id="menu_block"><a href="#">Статистика</a></div>
+                <div id="menu_block"><a href="#">Работа</a></div>
+                <div id="menu_block"><a href="#">Форум</a></div>
+                <div id="menu_block"><a href="#">Публикации</a></div>
+                <div id="search_block">
+                	<form action="#" method="post">
+                    	<input type="search" name="search" value="Введите текст" class="search_field" />
+                    </form>
+                </div>
+                <div id="clear"></div>
+            </div><!-- #menu -->
+        </div><!-- #header -->
+    	
         <div id="content">
-            <?php if($sf_user->hasFlash('notice')): ?>
-                <div id="notice" class="error">
-                    <?php echo $sf_user->getFlash('notice'); ?>
-                </div>
-            <?php endif; ?>
+            <div id="left">
+            	<h4>Каталог фрилансеров</h4>
+                <h5>По специализациям</h5>
+                
+                <ul class="ul_catalog_list_specs">
+                	<li>1C специалист</li>
+                	<li>
+                    	Дизайн сайта<br />
+						<ul class="ul_catalog_list_items">
+                        	<li>
+                            	<table width="100%" border="0">
+                                	<tr>
+                                    	<td width="50">
+                                        	<a href="#"><img src="/images/avatar.jpg" class="img_catalog_logo" /></a>
+                                        </td>
+                                        <td>
+                                        	<table width="100%" border="0">
+                                            	<tr><td class="ul_catalog_list_items_table_nick">Максим Максимыч [maximich]</td></tr>
+                                                <tr><td class="ul_catalog_list_items_table_spec">дизайн сайтов</td></tr>
+                                                <tr><td><a href="#" class="ul_catalog_list_items_table_spec">Подробнее -></a></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            
+                            
+                            <!-- repeats -->
+                        	<li>
+                            	<table width="100%" border="0">
+                                	<tr>
+                                    	<td width="50">
+                                        	<a href="#"><img src="/images/avatar.jpg" class="img_catalog_logo" /></a>
+                                        </td>
+                                        <td>
+                                        	<table width="100%" border="0">
+                                            	<tr><td class="ul_catalog_list_items_table_nick">Максим Максимыч [maximich]</td></tr>
+                                                <tr><td class="ul_catalog_list_items_table_spec">дизайн сайтов</td></tr>
+                                                <tr><td><a href="#" class="ul_catalog_list_items_table_spec">Подробнее -></a></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            
+                        	<li>
+                            	<table width="100%" border="0">
+                                	<tr>
+                                    	<td width="50">
+                                        	<a href="#"><img src="/images/avatar.jpg" class="img_catalog_logo" /></a>
+                                        </td>
+                                        <td>
+                                        	<table width="100%" border="0">
+                                            	<tr><td class="ul_catalog_list_items_table_nick">Максим Максимыч [maximich]</td></tr>
+                                                <tr><td class="ul_catalog_list_items_table_spec">дизайн сайтов</td></tr>
+                                                <tr><td><a href="#" class="ul_catalog_list_items_table_spec">Подробнее -></a></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            
+                        	<li>
+                            	<table width="100%" border="0">
+                                	<tr>
+                                    	<td width="50">
+                                        	<a href="#"><img src="/images/avatar.jpg" class="img_catalog_logo" /></a>
+                                        </td>
+                                        <td>
+                                        	<table width="100%" border="0">
+                                            	<tr><td class="ul_catalog_list_items_table_nick">Максим Максимыч [maximich]</td></tr>
+                                                <tr><td class="ul_catalog_list_items_table_spec">дизайн сайтов</td></tr>
+                                                <tr><td><a href="#" class="ul_catalog_list_items_table_spec">Подробнее -></a></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            
+                            
+                            <!-- end repeats -->
+                            
+                            
+                        </ul>
+					</li>
+                    <li>
+                    	Бухгалтер<br />
+                        <ul class="ul_catalog_list_items">
+                        	<li>
+                            	<table width="100%" border="0">
+                                	<tr>
+                                    	<td width="50">
+                                        	<a href="#"><img src="/images/avatar.jpg" class="img_catalog_logo" /></a>
+                                        </td>
+                                        <td>
+                                        	<table width="100%" border="0">
+                                            	<tr><td class="ul_catalog_list_items_table_nick">Максим Максимыч [maximich]</td></tr>
+                                                <tr><td class="ul_catalog_list_items_table_spec">дизайн сайтов</td></tr>
+                                                <tr><td><a href="#" class="ul_catalog_list_items_table_spec">Подробнее -></a></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                       </ul>
+					</li>
+                    <li>Юрист</li>
+                </ul>
+            </div><!-- #left -->
             
-            <?php if($sf_user->hasFlash('notice_notification')): ?>
-                <div id="notice" class="notification">
-                    <?php echo $sf_user->getFlash('notice_notification'); ?>
-                </div>
-            <?php endif; ?>
+            <!-- Центральная часть сайта -->
+            <div id="center">
+                
+                <!-- Ошибки -->
+                <?php if($sf_user->hasFlash('notice')): ?>
+                    <div id="notice" class="error">
+                        <?php echo $sf_user->getFlash('notice'); ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if($sf_user->hasFlash('notice_notification')): ?>
+                    <div id="notice" class="notification">
+                        <?php echo $sf_user->getFlash('notice_notification'); ?>
+                    </div>
+                <?php endif; ?>
+                
+                <?php echo $sf_content; ?>
+                
+            </div><!-- #center -->
             
-            <?php echo $sf_content; ?>
-        </div>
+            <div id="clear"></div>
+        </div><!-- #content -->
+        
         <div id="footer">
-            1CRegion.ru&copy;,&nbsp;2012<br />
-            All Rights Reserved.
+            <div id="footer_links">
+                <table width="90%" border="0">
+                    <tr>
+                        <td>Услуги</td>
+                        <td>О проекте</td>
+                        <td>Помощь</td>
+                    </tr>
+                    <tr>
+                    	<td>
+                        	<a href="#">Главная</a><br />
+							<a href="#">Профессиональный аккаунт</a><br />
+                            <a href="#">Платное место на главной странице</a><br />
+                            <a href="#">Платное место в каталоге фрилансеров</a><br />
+                            <a href="#">Магазин</a><br />
+                            <a href="#">Безопасная сделка</a>
+                        </td>
+                    	<td>
+                        	<a href="#">Реклама</a><br />
+							<a href="#">Контакты</a><br />
+                            <a href="#">Правила сайта</a><br />
+                            <a href="#">Пользовательское соглашение</a><br />
+                            <a href="<?php echo url_for('@about'); ?>">Описание проекта</a><br />
+                            <a href="#">Положение по обеспечению</a>
+                        </td>
+                    	<td valign="top">
+                        	<a href="#">Служба поддержки</a><br />
+							<a href="#">Консультант</a><br />
+                            <a href="#">Безопасность персональных данных</a>
+                        </td>
+                    </tr>
+                </table>
+            </div><!-- #footer_links -->
+            
+            <div id="footer_copyrights">
+            	Copyright&copy; 1CRegion.ru, 2012
+            </div>
+            
+            <div id="clear"></div>
         </div>
-      </div>
+	</div><!-- #container -->
+    
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -78,6 +268,6 @@
 </script>
 <noscript><div><img src="//mc.yandex.ru/watch/14044600" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-      
+
   </body>
 </html>

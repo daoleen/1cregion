@@ -1,78 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
 body {
-    font-family: serif, sans-serif;
-    color: #333333;
-    font-size: small;
+	background-color: #CCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
 }
 
-#container {
-    width: 1024px;
-    border: 1px solid #003333;
-    margin: 5px auto;
-    text-decoration: none;
+/** главный конейнер окна */
+body #container {
+	width: 80%;
+	border: 1px solid #CCC;
+	margin: 0 auto;
+	background-color: #FFF;  /* #f5f5f5; */
 }
 
+/** содержит верхнюю полосу, блок с логотипом и меню */
 #header {
-    width: 1024px;
-    height: 193px;
-    border-bottom: 1px solid #003333;
+	width: 100%;
+	background-color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #333;
 }
 
-#header_logo {
-    width: 317px;
-    float: left;
+/** самая верхняя линия */
+#header #upperLine {
+	width: 100%;
+	height: 20px;
+	background-image: url(../images/upper_line.jpg);
+	background-repeat: repeat-x;
 }
 
-#header_title {
-    width: 707px;
-    float: right;
-    padding-top: 40px;
-    text-align: center;
+/** Представляет содержимое блока шапки */
+#header #headerContent {
+	width: 100%;
+	height: 192px;
 }
 
-#user_toolbar {
-    width: 1004px;
-    height: 20px;
-    padding-top: 5px;
-    padding-right: 20px;
-    border-bottom: 1px solid #003333;
-    background-color: #ffff99;
-    text-align: right;
+/** логотип */
+#headerContent #logo {
+	width: 316px;
+	float: left;
 }
 
-#content {
-    width: 1024px;
-    padding: 5px 10px;
+/** вступительные слова о портале */
+#headerContent #introduction {
+	width: 50%;
+	padding-top: 15px;
+	float: left;
 }
 
-#footer {
-    width: 1024px;
-    height: 50px;
-    padding-top: 10px;
-    text-align: center;
-    border-top: 1px solid #003333;
+#introduction h3 {
+	color: #900;
+	text-decoration: underline;
+}
+
+/** авторизационный блок */
+#headerContent #autorisation {
+	margin: 35px auto;
+	width: auto;
+	padding: 5px 5px;
+	float: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+	color: #000;
+	text-decoration: none;	
+}
+
+.autorisation_input_text {
+    width: 100px;
+}
+
+/** Кнопка войти */
+.authorisation_login {
+	margin: 3px 5px;
+}
+
+/** полоса меню */
+#header #menu {
+	width: 100%;
+	height: 34px;
+	background-image: url(../images/menu_line.jpg);
+	background-repeat: repeat-x repeat-y;
+	float: left;
+}
+
+/** блок для одного item меню */
+#menu #menu_block {
+	height: 24px;
+	border-right: 1px solid #333;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/** настройка гиперлинков для меню */
+#menu_block a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/** блок поиска */
+#menu #search_block {
+	float: right;
+}
+
+
+/** оформление для контролла поиска */
+.search_field {
+	border: 3px solid #039;
+	margin-top: 5px;
+}
+
+/** Содержимое страницы */
+#container #content {
+	width: 100%;
+	margin: 15px auto;
+	background-color: #EEE;
+}
+
+/** Левый блок с рекламой и пр. ф. */
+#content #left {
+	width: 23%;
+	float: left;
+	background-color: #EEE;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+#left h4 {
+	margin: 5px 0;
+	padding: 0 0;
+}
+
+#left h5 {
+	margin: 5px 0;
+	padding: 0 0;
+}
+
+/** Динамический блок контента */
+#content #center {
+	width: 73%;
+	float: right;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+        border-bottom: 1px solid #999;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 15px;
+	background-color: #FFF;
+}
+
+
+/** Подвал сайта */
+#container #footer {
+	width: 99%;
+	background-image: url(../images/bottom_line.jpg);
+	background-repeat: repeat-x;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #FFF;
+}
+
+/** Ссылки в подвале сайта */
+#footer #footer_links {
+	width: 60%;
+	float: left;
+}
+
+#footer_links a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFF;
+}
+
+#footer_links a:hover {
+	text-decoration: underline;
+}
+
+/** Копирайты для подвала */
+#footer #footer_copyrights {
+	width: 25%;
+	float: right;
+	text-transform:capitalize;
+}
+
+#footer_copyrights a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFF;
+}
+
+#footer_copyrights a:hover {
+	text-decoration: underline;
+}
+
+/** Изображение аватарки */
+.img_catalog_logo {
+	width: 50px;
+	height: 50px;
+}
+
+/** список специализаций */
+.ul_catalog_list_specs {
+	margin: 3px 0;
+	padding: 0 5px;
+	list-style: circle;
+}
+
+/** Отступ для разделения специализаций */
+.ul_catalog_list_specs li {
+	margin-top: 7px;
+}
+
+/** список элементов специализаций ( фрилансеров ) */
+.ul_catalog_list_items {
+	margin: 5px 0;
+	padding: 0 0;
+	list-style: none;
+}
+
+/** шрифт для отображение ФИО фрилансера в каталоге */
+.ul_catalog_list_items_table_nick {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	color: #090;
+}
+
+
+/** шрифт для отображения специализации фрилансера в каталоге */
+.ul_catalog_list_items_table_spec {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	color: #333;
+	font-weight: bold;
 }
 
 #clear {
-    clear: both;
+	clear: both;
 }
 
-#notice {
-    width: 350px;
-    border: 1px solid #333333;
-    padding: 3px 3px;
-    text-align: center;
-    margin: 15px 10px;
-}
-
-.error {
-    color:  #660000;
-}
-
-.notification {
-    color: #3366ff;
-}
-
-
-.central {
-    text-align: center;
+.text_bold {
+	font-weight: bold;
 }

@@ -1,0 +1,93 @@
+/* 
+    Document   : main_page.css
+    Created on : Jun 26, 2012, 5:29:20 PM
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/** Заставка лаптопа с долларами на главной */
+#center #beautiful_top {
+	width: 50%;
+	height:250px;
+	background-image: url(../images/notebook_money.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	float: left;
+}
+
+/** Блок описания фриланса */
+#center #beautiful_about_freelance {
+	width: 343px;
+	background-color: #595959;
+	float: right;
+}
+
+/** Изображение "Удаленная работа" */
+#beautiful_about_freelance img {
+	width: 343px;
+	height: 68px;
+	margin-top: 5px;
+}
+
+/** Отступ и цвет для блока описания фриланса */
+#freelance_working_content {
+	padding: 5px 5px;
+	color: #FFF;
+}
+
+
+/** Центральная часть конента */
+#content #center {
+	width: 73%;
+	float: right;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 0;
+	background-color: #FFF;	
+}
+
+/** Заголовки разделов (статьи, топ-10 работ и пр.) */
+#center #title_section {
+	width: 100%;
+	margin: 0 0;
+	padding-left: 0;
+	padding-top: 15px;
+}
+
+/** Блок, содержащий ряд статей */
+#center #articles_block {
+	width: 100%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+/** Блок для одной статьи */
+#articles_block_article {
+	width: 30%;
+	padding-left: 1%;
+	padding-right: 2%;
+	float: left;
+	font-size: 12px;
+}
+
+#articles_block_article a {
+	color: #393;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+
+/** Блок для раздела топ-10 работ */
+#center #topworking_block {
+	width: 100%;
+}
+
+
+/** Таблица с работами для карусели */
+#topworking_block table {
+	margin: 10px 5px;
+}
