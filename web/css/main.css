@@ -60,7 +60,7 @@ body #container {
 /** Блок в шапке страницы для отображения иформации о пользователе / логина */
 #headerContent #user_params_block {
 	margin: 35px auto;
-	width: auto;
+	width: 17%;
 	padding: 5px 5px;
 	float: right;
 }
