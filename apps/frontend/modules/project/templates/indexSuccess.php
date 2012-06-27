@@ -1,42 +1,74 @@
+<?php use_stylesheet('project.css'); ?>
 <?php use_helper('Text'); ?>
-<h1>Проекты</h1>
 
-<table width="70%">
-    <?php foreach($projects as $project): ?>
-        <tr>
-            <td width="70%" colspan="2">
-                <a href="<?php echo url_for('project_show', $project); ?>">
-                    <?php echo $project->getName(); ?>
-                </a>
-            </td>
-            <td width="10%" align="right"><?php echo $project->getBudget(); ?>&nbsp;<?php echo $project->BudgetCurrency; ?></td>
-            <td width="20%" align="right"><?php echo $project->getTerm(); ?>&nbsp;<?php echo $project->getTermOptions(); ?></td>
-        </tr>
-        <tr>
-            <td colspan="4"><?php echo simple_format_text($project->getSmallDescription()); ?></td>
-        </tr>
-        <tr>
-            <td width="30%">Категория:</td>
-            <td width="70%" colspan="3"><?php echo $project->Category; ?></td>
-        </tr>
-        <tr>
-            <td width="30%">Тип проекта:</td>
-            <td width="70%" colspan="3"><?php echo $project->getWorkType(); ?></td>
-        </tr>
-        <tr>
-            <td width="30%">Файл:</td>
-            <td width="70%" colspan="3"><?php echo $project->getFileSrc(); ?></td>
-        </tr>
-        <tr>
-            <td width="30%">Добавлен:</td>
-            <td width="70%" colspan="3"><?php echo $project->getCreatedAt(); ?></td>
-        </tr>
-        <tr>
-            <td width="30%">Действителен до:</td>
-            <td width="70%" colspan="3"><?php echo $project->getExpiresAt(); ?></td>
-        </tr>
-        <tr height="20"><td colspan="4" width="100%"><hr /></td></tr>
-    <?php endforeach; ?>
-</table>
+<div id="project_block">
+    
+    <!--
+    <div id="project_filter">
+        Filter
+    </div>
+    -->
+    
+<?php foreach($projects as $project): ?>
+    <div id="project_in_list_block">
+        <table width="100%" border="0">
+            <tr>
+                <td colspan="3"><a href="<?php echo url_for('project_show', $project); ?>" class="title_font"><?php echo $project->getName(); ?></a></td>
+                <td align="right" class="<?php echo ($project->getIsBudgetByAgreement()) ? 'price_by_agrrement' : 'price'; ?>">
+                    <?php if($project->getIsBudgetByAgreement()): ?>
+                        По договоренности
+                    <?php else: ?>
+                        <?php echo $project->getBudget(); ?>&nbsp;<?php echo $project->BudgetCurrency; ?>
+                    <?php endif; ?>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="small_description">
+                    <?php echo simple_format_text($project->getSmallDescription()); ?>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <img src="/images/icons/clock.gif" width="20" height="20" align="absmiddle" />
+                    <span class="date"><?php echo $project->getCreatedAt(); ?></span>
+                </td>
+                <td width="25%">
+                    <img src="/images/icons/hexagon_blue_small.gif" width="20" height="20" align="absmiddle" />
+                    <span class="level"><?php echo $project->Category; ?></span>
+                </td>
+                <td width="22%">
+                    <img src="/images/icons/flag.gif" width="24" height="29" align="absmiddle" />
+                    <span class="answers_count">ответов (<?php echo $project->getAnswersCount(); ?>)</span>
+                </td>
+                <td width="23%" align="right">
+                    <?php if($project->getIsSecurityDeal()): ?>
+                        <img src="/images/icons/info.gif" width="21" height="20" align="absmiddle" />
+                        <span class="more">Безопасная сделка</span>
+                    <?php endif; ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+<?php endforeach; ?>
+</div>
 
-  <a href="<?php echo url_for('project/new') ?>">New</a>
+<div id="project_action_block">
+    <ul>
+        <li>
+            <img src="/images/icons/briefcase.gif" align="absmiddle" />
+            <a href="<?php echo url_for('/project/new'); ?>">Добавить проект</a>
+        </li>
+        <li>
+            <img src="/images/icons/hexagon_blue.gif" align="absmiddle" />
+            <a href="#">Проекты высокого уровня</a>
+        </li>
+        <li>
+            <img src="/images/icons/hexagon_yellow.gif" align="absmiddle" />
+            <a href="#">Проекты среднего уровня</a>
+        </li>
+        <li>
+            <img src="/images/icons/hexagon_red.gif" align="absmiddle" />
+            <a href="#">Проекты низкого уровня</a>
+        </li>
+    </ul>
+</div>

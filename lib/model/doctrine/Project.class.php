@@ -29,4 +29,14 @@ class Project extends BaseProject
                 ->where('id = ?', $id)
                 ->fetchOne();
     }
+    
+    
+    public function getAnswersCount() {
+        $q = Doctrine_Query::create()
+                ->from('Comment c')
+                ->leftJoin('Project p')
+                ->where('c.project_id = ?', $this->id)
+                ->count();
+        return $q;
+    }
 }

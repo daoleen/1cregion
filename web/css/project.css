@@ -1,0 +1,110 @@
+/* 
+    Document   : project
+    Created on : Jun 27, 2012, 2:19:33 PM
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#sf_content_block {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+#project_block {
+    width: 74%;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+#project_action_block {
+    width: 25%;
+    float: right;
+}
+
+#project_action_block ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 0;
+}
+
+#project_action_block li {
+    margin-top: 15px;
+}
+
+#project_action_block a {
+    font-family: "Times New Roman", serif;
+    font-size: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+#project_action_block a:hover {
+    text-decoration: underline;
+}
+
+#project_in_list_block {
+    width: 100%;
+    border-top: 1px solid #999;
+    padding: 0 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#project_filter {
+    width: 100%;
+    height: 150px;
+    background-color: #441931;
+}
+
+a.title_font {
+    color: #18a60a;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a.title_font:hover {
+    text-decoration: underline;
+}
+
+.price_by_agrrement {
+    color: #1546d4;
+    font-family: serif;
+    font-size: 9px;
+}
+
+.price {
+    color: #1546d4;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.small_description {
+    color: #191919;
+}
+
+.date {
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    color: #18a60a;
+}
+
+.level {
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    color: #1546d4;
+}
+
+.answers_count {
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    color: #666;
+}
+
+.more {
+    font-family: serif;
+    font-size: 9px;
+    color: #333;
+}

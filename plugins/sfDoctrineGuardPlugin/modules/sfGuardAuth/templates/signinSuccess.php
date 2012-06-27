@@ -1,3 +1,4 @@
+<?php use_stylesheet('registration.css'); ?>
 <?php use_helper('I18N') ?>
 
 <h1><?php echo __('Signin', null, 'sf_guard') ?></h1>

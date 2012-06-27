@@ -93,6 +93,10 @@ body #container {
 	font-weight: bold;
 }
 
+#menu_block a:hover {
+    color: #010f25;
+}
+
 /** блок поиска */
 #menu #search_block {
 	float: right;
@@ -140,8 +144,6 @@ body #container {
 	border-left: 1px solid #999;
         border-bottom: 1px solid #999;
 	margin-top: 15px;
-	padding-top: 5px;
-	padding-left: 15px;
 	background-color: #FFF;
 }
 

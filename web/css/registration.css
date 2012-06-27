@@ -6,6 +6,10 @@
         Purpose of the stylesheet follows.
 */
 
+#sf_content_block {
+    padding-left: 2%;
+}
+
 h2 {
     color: #000;
     margin-top: 10px;

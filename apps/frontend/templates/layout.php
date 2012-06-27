@@ -38,16 +38,21 @@
             	<div id="menu_block"><a href="<?php echo url_for('@homepage'); ?>">Главная</a></div>
                 <div id="menu_block"><a href="#">Профиль</a></div>
                 <div id="menu_block"><a href="<?php echo url_for('@project'); ?>">Проекты</a></div>
+                <!--
                 <div id="menu_block"><a href="#">Магазин</a></div>
                 <div id="menu_block"><a href="#">Статистика</a></div>
                 <div id="menu_block"><a href="#">Работа</a></div>
                 <div id="menu_block"><a href="#">Форум</a></div>
                 <div id="menu_block"><a href="#">Публикации</a></div>
+                -->
+                
+                <!-- --search_block
                 <div id="search_block">
                 	<form action="#" method="post">
                     	<input type="search" name="search" value="Введите текст" class="search_field" />
                     </form>
                 </div>
+                -->
                 <div id="clear"></div>
             </div><!-- #menu -->
         </div><!-- #header -->
@@ -179,7 +184,9 @@
                     </div>
                 <?php endif; ?>
                 
-                <?php echo $sf_content; ?>
+                <div id="sf_content_block">
+                    <?php echo $sf_content; ?>
+                </div>
                 
             </div><!-- #center -->
             
