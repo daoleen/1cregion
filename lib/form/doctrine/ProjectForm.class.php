@@ -12,7 +12,7 @@ class ProjectForm extends BaseProjectForm
 {
   public function configure()
   {
-      unset($this['created_at'], $this['updated_at'], $this['slug'], $this['owner_id']);
+      unset($this['created_at'], $this['updated_at'], $this['slug'], $this['owner_id'], $this['is_active']);
       
       // settings for widgets
       $this->widgetSchema['small_description'] = new sfWidgetFormTextarea();
@@ -21,7 +21,7 @@ class ProjectForm extends BaseProjectForm
       $this->widgetSchema['office_country_id']->setOption('add_empty', 'Выберите страну');
       $this->widgetSchema['office_city_id']->setOption('add_empty', 'Выберите город');
       $this->widgetSchema['budget_currency_id']->setOption('add_empty', 'Выберите валюту');
-      $this->widgetSchema['expires_at'] = new sfWidgetFormDate(); // array('format' => '%day%/%month%/%year%', 'years' => array($year = date('Y'), $year+sfConfig::get('app_count_years_to_expired',1)), 'can_be_empty' => false));
+      $this->widgetSchema['expires_at'] = new sfWidgetFormDate(array('format' => '%day%/%month%/%year%', 'years' => array(date('Y')), 'can_be_empty' => true, 'empty_values' => array('day' => date('d'), 'month' => date('m'),'year' => 2013)));
       
       
       // settings for validators
@@ -66,7 +66,13 @@ class ProjectForm extends BaseProjectForm
           'budget_currency_id' => 'Валюта',
           'budget_type' => 'Порядок оплаты',
           'is_security_deal' => 'Использовать безопасную сделку',
-          'expires_at' => 'Действителен до'
+          'expires_at' => 'Действителен до',
+          'term' => 'Срок выполнения',
+          'term_options' => 'Период'
       ));
+  }
+  
+  public function getStylesheets() {
+      return array('project_form.css' => null);
   }
 }

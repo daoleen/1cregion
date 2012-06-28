@@ -3,11 +3,62 @@
 
 <div id="project_block">
     
-    <!--
     <div id="project_filter">
-        Filter
+        <table width="100%" border="0">
+            <tr>
+                <td colspan="5" class="button_filter"><img src="/images/filter_title.jpg" class="image_filter" /></td>
+                <td align="right" class="status_filter_on">Фильтр включен</td>
+            </tr>
+            <tr>
+                <td class="td_filter"><img src="/images/icons/money.gif" class="image_icon" /></td>
+                <td><input type="checkbox" /></td>
+                <td>Бюджет:</td>
+                <td>от <input type="text" size="10" /></td>
+                <td colspan="2">до <input type="text" size="10" /></td>
+            </tr>
+            <tr>
+                <td class="td_filter"><img src="/images/icons/star.gif" class="image_icon" /></td>
+                <td><input type="checkbox" /></td>
+                <td>Разделы:</td>
+                <td colspan="3">
+                    <input type="list" multipart="true" />
+                </td>
+            </tr>
+            <tr>
+                <td class="td_filter"><img src="/images/icons/home.gif" /></td>
+                <td><input type="checkbox" /></td>
+                <td>Местоположение:</td>
+                <td>
+                    <select multipart="true">
+                        <option value="1">Страна</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <select multipart="true">
+                        <option value="1">Город</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="td_filter">
+                <td class="td_filter"><img src="/images/icons/pencil.gif" class="image_icon" /></td>
+                <td><input type="checkbox" /></td>
+                <td>Тэги:</td>
+                <td colspan="3">
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="right">
+                    <img src="/images/icons/check.gif" class="image_icon" align="absmiddle" />
+                    <span>Применить</span>
+                </td>
+                <td align="right">
+                    <img src="/images/icons/cross.gif" class="image_icon" align="absmiddle" />
+                    <span>Очистить форму</span>
+                </td>
+            </tr>
+        </table>
     </div>
-    -->
     
 <?php foreach($projects as $project): ?>
     <div id="project_in_list_block">
