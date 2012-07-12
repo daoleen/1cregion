@@ -107,7 +107,7 @@
     <ul>
         <li>
             <img src="/images/icons/briefcase.gif" align="absmiddle" />
-            <a href="<?php echo url_for('/project/new'); ?>">Добавить проект</a>
+            <a href="<?php echo url_for('@project_new'); ?>">Добавить проект</a>
         </li>
         <li>
             <img src="/images/icons/hexagon_blue.gif" align="absmiddle" />

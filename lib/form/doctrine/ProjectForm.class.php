@@ -14,15 +14,18 @@ class ProjectForm extends BaseProjectForm
   {
       unset($this['created_at'], $this['updated_at'], $this['slug'], $this['owner_id'], $this['is_active']);
       
+      $year_now = date('Y');
+      
       // settings for widgets
-      $this->widgetSchema['small_description'] = new sfWidgetFormTextarea();
-      $this->widgetSchema['description'] = new sfWidgetFormTextarea(array(), array('cols' => 50, 'rows' => 10));
+      $this->widgetSchema['small_description'] = new sfWidgetFormTextarea(array(), array('class' => 'textarea_small'));
+      $this->widgetSchema['description'] = new sfWidgetFormTextarea(array(), array('class' => 'textarea_description'));
       $this->widgetSchema['file_src'] = new sfWidgetFormInputFile();
       $this->widgetSchema['office_country_id']->setOption('add_empty', 'Выберите страну');
       $this->widgetSchema['office_city_id']->setOption('add_empty', 'Выберите город');
       $this->widgetSchema['budget_currency_id']->setOption('add_empty', 'Выберите валюту');
-      $this->widgetSchema['expires_at'] = new sfWidgetFormDate(array('format' => '%day%/%month%/%year%', 'years' => array(date('Y')), 'can_be_empty' => true, 'empty_values' => array('day' => date('d'), 'month' => date('m'),'year' => 2013)));
-      
+      $this->widgetSchema['expires_at'] = new WidgetFormDateNorm(array('format' => '%day%/%month%/%year%', 'years' => array($year_now => $year_now, $year_now+1 => $year_now+1), 'can_be_empty' => true, 'empty_values' => array('day' => date('d'), 'month' => date('m'), 'year' => $year_now+1)));
+      $this->widgetSchema['budget'] = new sfWidgetFormInputText(array(), array('class' => 'input_small'));
+      $this->widgetSchema['term'] = new sfWidgetFormInputText(array(), array('class' => 'input_small'));
       
       // settings for validators
       $this->validatorSchema['name']->setMessages(array(
@@ -33,8 +36,8 @@ class ProjectForm extends BaseProjectForm
           'required' => 'Поле, обязательное для заполнения',
           'max_length' => 'Максимальная длина поля 100 символов'
       ));
-      $this->validatorSchema['description']->setMessage('required', 'Поле, обязательное для заполнения');
-      $this->validatorSchema['expires_at'] = new sfValidatorDate(array('min' => date('Y/m/d')), array('invalid' => 'Неверно выбрана дата.<br />Это должно быть в будущем'));
+      $this->validatorSchema['description']->setMessage('required', 'Поле "Описание" обязательно для заполнения');
+      $this->validatorSchema['expires_at'] = new sfValidatorDate(array('min' => date('m/d/Y')), array('invalid' => 'Неверно выбрана дата'));
       $this->validatorSchema['file_src'] = new sfValidatorFile(
         array(
           'required'    => false,
@@ -69,6 +72,21 @@ class ProjectForm extends BaseProjectForm
           'expires_at' => 'Действителен до',
           'term' => 'Срок выполнения',
           'term_options' => 'Период'
+      ));
+      
+      $this->getWidgetSchema()->setHelps(array(
+          'name'    => 'Введите название проекта',
+          'small_description' => 'Не более 100 символов',
+          'file_src' => 'Возможные форматы: gif, png, jpeg',
+          'category_id' => 'Выберите специализацию проекта',
+          'work_type' => 'Выберите тип работы',
+          'office_country_id' => 'Выберите вашу страну',
+          'office_city_id' => 'Выберите свой город',
+          'is_budget_by_agreement' => 'Указывать бюджет необязательно',
+          'budget' => 'Вещественное число',
+          'is_security_deal' => 'Желаете ли воспользоваться сервисом безопасных сделок',
+          'expires_at' => 'По истечении данного срока проект закрывается',
+          'term' => 'Укажите срок и период выполнения',
       ));
   }
   
