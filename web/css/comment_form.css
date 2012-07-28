@@ -1,0 +1,16 @@
+/* 
+    Document   : comment_form
+    Created on : 28.07.2012, 3:52:28
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.control_small_text {
+    width: 80px;
+}
+
+.control_text_area {
+    width: 500px;
+    height: 150px;
+}

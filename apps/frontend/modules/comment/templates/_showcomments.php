@@ -1,28 +1,107 @@
 <?php use_helper('Text'); $isSecondComment = false; ?>
-<hr />
-    <h4>Комментарии к проекту:</h4>
-    <?php foreach ($comments as $comment): ?>
-        <p>
-        <?php if($comment->User == $sf_user->getGuardUser()) $isSecondComment = true; ?>
-        Фрилансер: <?php echo $comment->User; ?><br />
-        Стоимость: <?php echo $comment->getCost(); ?>&nbsp;<?php echo $comment->Currency; ?>/<?php echo $comment->getCostType(); ?><br />
-        Срок: <?php echo $comment->getTerm(); ?> <?php echo $comment->getTermOptions(); ?><br />
-        Через безопасную сделку; <?php echo $comment->getIsSecurityDeal(); ?><br />
-        Кандидат: <?php echo $comment->getIsCandidate(); ?><br />
-        Исполнитель: <?php echo $comment->getIsPerformer(); ?><br />
-        Комментарий: <?php echo simple_format_text($comment->getComment()); ?><br />
-        </p>
-    <?php endforeach; ?>
 
+<div id="request"> <!--Пятая полоса-->
+        <div id="top">
+            <p class="left"> Заявки фрилансеров </p>
+            <!--<p class="right"> Добавить заявку </p>-->
+        </div>
+
+    </table>
+    <table>
+        <tr>
+            <th>Пользователь</th>
+            <th>Сумма</th>
+            <th>Сроки</th>
+            <th align="right">Дата</th>
+        </tr>
+        <?php foreach($project->Comments as $comment): ?>
+            <?php if($comment->User == $sf_user->getGuardUser()) $isSecondComment = true; ?>
+            <tr>
+                <td>
+                    <img src="/images/avatar.gif" alt="Аватар исполнителя" align="left" /> 
+                        <?php echo $comment->User; ?>
+                        <?php echo simple_format_text($comment->getComment()); ?>
+                    
+                        <?php if($comment->getIsSecurityDeal()): ?>
+                            <strong>Желаю использовать сервис безопасных сделок</strong><br />
+                        <?php endif; ?>
+                            
+                        <?php if($comment->getIsCandidate()): ?>
+                            <strong>Кандидат к выполнению проекта</strong><br />
+                        <?php endif; ?>
+                            
+                        <?php if($comment->getIsPerformer()): ?>
+                            <strong>Исполнитель проекта</strong><br />
+                        <?php endif; ?>
+                </td>
+                <td><?php echo $comment->getCost(); ?>&nbsp;<?php echo $comment->Currency; ?><br /><?php echo $comment->getCostType(); ?></td>
+                <td><?php echo $comment->getTerm(); ?>&nbsp;<?php echo $comment->getTermOptions(); ?></td>
+                <td><?php echo $comment->getCreatedAt(); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+
+</div> <!--#request-->
+<div id="clear"></div>
+
+
+<!--
 <?php if($sf_user->hasCredential('freelancer') && !$isSecondComment): ?>
     <br />
     <h4>Новый комментарий:</h4>
     <table>
         <thead><?php echo form_tag_for($form, '@comment'); ?></thead>
-        <tbody><?php echo $form; ?><input type="submit" value="Добавить" /></tbody>
+        <tbody><?php echo $form; ?></tbody>
         <tfoot>
-
+<input type="submit" value="Добавить" />
             </form>
         </tfoot>
     </table>
+<?php endif; ?>
+
+-->
+
+<?php if($sf_user->hasCredential('freelancer') && !$isSecondComment): ?>
+    <?php use_stylesheets_for_form($form); ?>
+    <div id="answer"> <!--Шестая полоса-->
+        <div class="left"><span class="answer_on_project">Ответить на проект</span><br /><br />
+            Бюджет: 
+        </div>
+        <?php echo form_tag_for($form, '@comment'); ?>
+        <div id="form">
+            <table width="150" border="0">
+                <tr>
+                    <td><?php echo $form['is_security_deal']->render(); ?></td>
+                    <td colspan="3"><?php echo $form['is_security_deal']->renderLabel(); ?></td>               
+                </tr>
+                <tr>
+                    <td><?php echo $form['cost']->renderLabel(); ?></td>
+                    <td><?php echo $form['cost']->render(); ?></td>
+                    <td><?php echo $form['currency_id']->render(); ?></td>
+                    <td><?php echo $form['cost_type']->render(); ?></td>                    
+                </tr>
+                <tr>
+                    <td><?php echo $form['term']->renderLabel(); ?></td>
+                    <td><?php echo $form['term']->render(); ?></td>
+                    <td colspan="2"><?php echo $form['term_options']->render(); ?></td>
+                </tr>
+            </table>
+        </div>
+        <div id="comments">
+            <table width="150" border="0">
+                <tr>
+                    <td width="100">Комментарий</td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo $form['comment']->render(); ?>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit"><img src="/images/btn_add_answer.jpg" /></button>
+        </div> 
+        <?php echo $form['project_id']->render(); ?>
+        <?php echo $form['_csrf_token']->render(); ?>
+        </form>
+    </div> <!--#answer-->
 <?php endif; ?>

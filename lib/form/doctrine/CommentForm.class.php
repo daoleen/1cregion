@@ -19,5 +19,21 @@ class CommentForm extends BaseCommentForm
         );
       
       $this->setWidget('project_id', new sfWidgetFormInputHidden());
+      
+      // Styles for controls
+      $this->widgetSchema['cost']->setAttribute('class', 'control_small_text');
+      $this->widgetSchema['term']->setAttribute('class', 'control_small_text');
+      $this->widgetSchema['comment']->setAttribute('class', 'control_text_area');
+      
+      // Labels for controls
+      $this->getWidgetSchema()->setLabels(array(
+          'cost' => 'Стоимость',
+          'term' => 'Срок',
+          'is_security_deal' => 'Желаю использовать сервис безопасных сделок'
+      ));
+  }
+  
+  public function getStylesheets() {
+      return array('comment_form.css' => null);
   }
 }
