@@ -1,0 +1,39 @@
+Account:
+  columns:
+    birthday: { type: date, default: '1994-01-01' }
+    country_id: { type: integer }
+    city_id: { type: integer }
+    visitors: { type: integer, notnull: true, default: 0 }
+    email: { type: string(100) }
+    icq: { type: string(20) }
+    skype: { type: string(100) }
+    other_contacts: { type: string(255) }
+    other_info: { type: string(1000) }
+    avatar: { type: string(100) }
+  indexes:
+    city_idx:
+      fields: [country_id, city_id]
+  relations:
+    Categories:
+      class: Category
+      local: account_id
+      foreign: category_id
+      refClass: AccountCategory
+      foreignAlias: Accounts
+    Country:
+      class: Country
+      local: country_id
+      foreign: id
+      foreignAlias: Account
+    City:
+      class: City
+      local: city_id
+      foreign: id
+      foreignAlias: Account
+    User:
+      class: sfGuardUser
+      local: id
+      foreign: id
+      foreignAlias: Account
+      type: one
+      foreignType: one

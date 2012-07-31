@@ -1,0 +1,145 @@
+/* 
+    Document   : account
+    Created on : 31.07.2012, 21:22:03
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#navigation {
+    margin-top: 25px;
+    width: 100%;
+    height: 15px;
+    color: #039;
+    background-color: #d6d7f1;
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0 0;
+}
+
+#navigation ul li {
+    display: inline;
+    padding: 1px 15px;
+}
+
+#navigation ul li a {
+    color: #039;
+    font-family: cursive;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#navigation .logout {
+    padding-left: 50px;
+}
+
+img.title_profile {
+    width: 212px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+#left_info {
+    width: 53%;
+    float: left;
+    padding: 1% 2%;
+}
+
+#left_info #logo_info {
+    width: 100%;
+}
+#left_info #logo_info h3{
+    color: #18a60a;
+}
+#left_info #logo_info .avatar{
+    width: 81px;
+    height: 81px;
+    margin-right: 10px;
+}
+
+#left_info #logo_info .years_old {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#left_info #logo_info .city {
+    font-size: 15px;
+    color: #555;
+}
+
+#left_info #logo_info .private_message {
+    color: #333;
+    vertical-align: bottom;
+}
+
+#left_info #main_info {
+    margin-top: 40px;
+    width: 100%;
+    color: #333;
+}
+
+#main_info h3 {
+    margin-bottom: 9px;
+    padding: 0 0;
+}
+
+#right_info {
+    color: #555;
+    width: 39%;
+    float: right;
+    padding: 1% 2%;
+}
+
+#right_info #categories {
+    width: 100%;
+    margin-top: 18px;
+}
+
+#categories h3 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding: 0;
+    color: #039;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+#right_info #contacts {
+    width: 100%;
+    color: #1546d4;
+}
+
+#contacts h3 {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    padding: 0;
+    color: #333;
+}
+
+#right_info #other_info {
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 5px 0;
+    color: #666;
+}
+
+#other_info h3 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    padding: 0;
+    color: #333;
+}
+
+
+.info_not_avaliable {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
+    text-decoration: underline;
+}

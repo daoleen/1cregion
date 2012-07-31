@@ -1,0 +1,15 @@
+AccountCategory:
+  columns:
+    account_id: { type: integer, notnull: true }
+    category_id: { type: integer, notnull: true }
+  relations:
+    Accounts:
+      class: Account
+      local: account_id
+      foreign: id
+      foreignAlias: AccountCategory
+    Categories:
+      class: Category
+      local: category_id
+      foreign: id
+      foreignAlias: AccountCategory

@@ -28,7 +28,13 @@
                     <?php if(!$sf_user->isAuthenticated()): ?>
                         <?php include_component('sfGuardAuth', 'authorization'); ?>
                     <?php else: ?>
-                        <span class="central"><?php echo $sf_user; ?></span>
+                        <span class="central">
+                            <a href="<?php echo url_for('account', $sf_user->getGuardUser()); ?>">
+                                <?php echo $sf_user; ?>
+                            </a>
+                            <br />
+                            <a href="<?php echo url_for('@sf_guard_signout'); ?>">Выйти</a>
+                        </span>
                     <?php endif; ?>
                 </div>
                 <div id="clear"></div>

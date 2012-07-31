@@ -1,6 +1,14 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+
+# Личный кабинет пользователя
+account:
+  url:  /account/:username
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: account, action: index }
+
 sf_guard_signin:
   url:  /login
   param: { module: sfGuardAuth, action: signin }

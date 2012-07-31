@@ -12,3 +12,5 @@ all:
     
     success_signin_url:     @homepage
     success_signout_url:   @homepage
+    
+  default_avatar_path:  /images/avatar.gif  # Аватарка по умолчанию
