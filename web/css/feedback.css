@@ -1,0 +1,93 @@
+/* 
+    Document   : feedback
+    Created on : 01.08.2012, 18:14:34
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h3 {
+    margin: 5px 10px;
+}
+
+.table_feedback {
+    width: 100%;
+    border: 0;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.table_feedback thead tr th {
+    font-family: serif;
+    font-size: 12px;
+    color: #1546d4;
+    font-weight: bold;
+}
+
+#feedback_block {
+    border: 1px solid #f9cdb2;
+    margin-top: 1px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.user_info {
+    font-weight: normal;
+    color: #333;
+    vertical-align: text-top;
+}
+
+.user_name {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.project_name a{
+    font-size: 12px;
+    color: #090;
+    font-weight: normal;
+    font-family: "Times New Roman";
+}
+
+.category_name {
+    font-size: 12px;
+    color: #555;
+    font-weight: normal;
+}
+
+.feedback_info {
+    vertical-align: text-top;
+    font-weight: normal;
+    color: #333;
+    padding-top: 15px;
+}
+
+.feedback_comment {
+    font-family: "Times New Roman";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.negative {
+    color: #d2131d;
+}
+
+.positive {
+    color: #888;
+}
+
+.feedback_comment p {
+    margin: 0;
+    padding: 0;
+}
+
+.img_feedback_type {
+    width: 19px;
+    height: 22px;
+    padding: 0 2px 0 2px;
+}

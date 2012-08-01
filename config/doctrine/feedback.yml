@@ -1,0 +1,32 @@
+Feedback:
+  actAs: { Timestampable: ~ }
+  columns:
+    user_id: { type: integer, notnull: true }
+    owner_id: { type: integer, notnull: true }
+    project_id: { type: integer, notnull: true }
+    feedback_type: { type: enum, values: ['positive', 'negative'], notnull: true, default: 'positive' }
+    cost: { type: float, length: 8, notnull: true, default: '0.00' }
+    ball: { type: integer, length: 2, notnull: true, default: 0 }
+    comment: { type: text, notnull: true }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      foreignAlias: Feedbacks
+      type: one
+      foreignType: many
+    Owner:
+      class: sfGuardUser
+      local: owner_id
+      foreign: id
+      foreignAlias: Feedbacks
+      type: one
+      foreignType: many
+    Project:
+      class: Project
+      local: project_id
+      foreign: id
+      foreignAlias: Feedback
+  options:
+    charset: utf8

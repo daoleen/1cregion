@@ -2,6 +2,14 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 
+# Отзывы о пользователе
+feedback:
+  url:  /account/:username/feedback
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: feedback, action: index }
+
+
 # Личный кабинет пользователя
 account:
   url:  /account/:username
