@@ -8,6 +8,30 @@ account:
   class: sfDoctrineRoute
   options: { model: sfGuardUser, type: object }
   param: { module: account, action: index }
+  
+account_edit:
+  url:  /account/:username/edit
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: account, action: edit }
+  
+account_update:
+  url:  /account/process
+  param: { module: account, action: update }
+  requirements:
+    sf_method: [post]
+    
+avatar_edit:
+  url:  /account/:username/avatar
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object } 
+  param: { module: account, action: avatar }
+  
+avatar_update:
+  url:  /account/avatar/process
+  param: { module: account, action: updateAvatar }
+  requirements:
+    sf_method: [put]
 
 sf_guard_signin:
   url:  /login

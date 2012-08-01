@@ -1,4 +1,6 @@
 <?php use_stylesheet('account.css'); ?>
+<?php use_helper('Text'); ?>
+
 <img src="/images/title_profile.jpg" class="title_profile" />
 <div id="navigation">
     <ul>
@@ -93,10 +95,16 @@
             Информация недоступна
         </span>-->
         
-        <?php echo ($info = $user->Account->getOtherInfo()) ? $info : '<span class="info_not_avaliable">Информация недоступна
+        <?php echo ($info = $user->Account->getOtherInfo()) ? simple_format_text($info) : '<span class="info_not_avaliable">Информация недоступна
         </span>'; ?>
         
     </div>
+    
+    <?php if($sf_user->getGuardUser() == $user): ?>
+        <br />
+        <a href="<?php echo url_for('account_edit', $user); ?>">Редактировать данные</a>&nbsp;
+        <!--<a href="<?php echo url_for('avatar_edit', $user); ?>">Изменить аватар</a>-->
+    <?php endif; ?>
 </div>
 
 <div id="clear"></div>
