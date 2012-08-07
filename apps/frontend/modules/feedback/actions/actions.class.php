@@ -13,13 +13,8 @@ class feedbackActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $user = $this->getRoute()->getObject();
-    
-    /**
-    $this->feedbacks = Doctrine_Core::getTable('Feedback')
-      ->createQuery('a')
-      ->execute();
-     */
     $feedback = new Feedback();
+    
     $this->feedbacks = $feedback->getFeedbacks($user);
   }
 
@@ -45,6 +40,7 @@ class feedbackActions extends sfActions
     $this->setTemplate('new');
   }
 
+  /**
   public function executeEdit(sfWebRequest $request)
   {
     $this->forward404Unless($feedback = Doctrine_Core::getTable('Feedback')->find(array($request->getParameter('id'))), sprintf('Object feedback does not exist (%s).', $request->getParameter('id')));
@@ -61,6 +57,7 @@ class feedbackActions extends sfActions
 
     $this->setTemplate('edit');
   }
+  **/
 
   public function executeDelete(sfWebRequest $request)
   {
@@ -69,7 +66,7 @@ class feedbackActions extends sfActions
     $this->forward404Unless($feedback = Doctrine_Core::getTable('Feedback')->find(array($request->getParameter('id'))), sprintf('Object feedback does not exist (%s).', $request->getParameter('id')));
     $feedback->delete();
 
-    $this->redirect('feedback/index');
+    $this->redirect('feedback', $feedback->User);
   }
 
   protected function processForm(sfWebRequest $request, sfForm $form)
@@ -79,7 +76,7 @@ class feedbackActions extends sfActions
     {
       $feedback = $form->save();
 
-      $this->redirect('feedback/edit?id='.$feedback->getId());
+      $this->redirect('feedback', $feedback->User);
     }
   }
 }

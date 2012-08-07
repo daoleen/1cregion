@@ -20,5 +20,32 @@ class FeedbackForm extends BaseFeedbackForm
       $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
       $this->widgetSchema['owner_id'] = new sfWidgetFormInputHidden();
       $this->widgetSchema['project_id'] = new sfWidgetFormInputHidden();
+      $this->widgetSchema['ball'] = new sfWidgetFormChoice(array('choices' => array('1' => 1, '2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9, '10' => 10)));
+           
+      $this->validatorSchema['ball'] = new sfValidatorAnd(array(
+          $this->validatorSchema['ball'],
+          new sfValidatorChoice(array('choices' => array('1' => 1, '2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8, '9' => 9, '10' => 10)))
+      ));
+      
+      $this->validatorSchema['comment'] = new sfValidatorString(array('required' => true, 'trim' => true));
+      
+      
+      $this->getWidgetSchema()->setLabels(array(
+          'comment' => 'Комментарий',
+          'feedback_type'   => 'Тип отзыва',
+          'ball'    => 'Оценка',
+          'cost'    => 'Стоимость'
+      ));
+      
+      $this->getWidgetSchema()->setHelps(array(
+          'comment' => 'Введите Ваш комментарий для пользователя',
+          'feedback_type'   => 'Выберите из списка тип отзыва',
+          'ball'    => 'Выберите оценку, на которую по вашему мнению был выполнен проект',
+          'cost'    => 'Введите стоимость разработки проекта'
+      ));
+  }
+  
+  public function getStylesheets() {
+      return array('feedback_form.css' => null);
   }
 }
