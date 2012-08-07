@@ -1,0 +1,65 @@
+/* 
+    Document   : comment
+    Created on : 07.08.2012, 22:24:54
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+	
+#comments {
+	width: 100%;
+	float: left;
+	}
+	
+#comments form {
+	float: left;
+	}		
+	
+#comments button {
+	padding: 0px;
+	float: left;
+	margin: 10px;
+	}
+	
+.left_align {
+    text-align: left;
+}
+
+.center_align {
+    text-align: center;
+}
+
+.user_description {
+    padding-top: 3px;
+}
+
+.a_username {
+    color: #323332;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.user_description p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin: 4px 0;
+    padding: 0;
+    color: #2a2a2a;
+}
+
+.user_description strong {
+    color: #d5271a;
+}
+
+.cost {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #313333;
+}
+
+.cost_type {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #64442f;
+    font-size: 12px;
+}

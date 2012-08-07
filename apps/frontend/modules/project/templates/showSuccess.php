@@ -8,12 +8,12 @@
 <div id="design"> <!-- Вторая полоса -->
     <div class="left">
         <?php echo $project->getName(); ?><br />
-        <font color="#0607FF"><?php echo $project->Category; ?></font>
+        <font color="#444452"><?php echo $project->Category; ?></font>
     </div>
     <div class="right">
         <img src="/images/avatar.gif" alt="Аватар работодателя" />
-            <?php echo $project->User; ?><br />
-            Зарегистрирован: <?php echo date('d.m.Y', strtotime($project->User->getCreatedAt())); ?> | Отзывы: TODO
+            <a href="<?php echo url_for('account', $project->User); ?>" class="a_username"><?php echo $project->User; ?></a><br />
+            Зарегистрирован: <?php echo date('d.m.Y', strtotime($project->User->getCreatedAt())); ?> | Отзывы: <a href="<?php echo url_for('feedback', $project->User); ?>" class="a_feedback"><?php echo $project->Feedback->count(); ?></a>
         </div>
 </div> <!--#design-->
 
@@ -54,8 +54,6 @@
             include_component('comment', 'showcomments', array('project' => $project));
     ?>
 
-    <hr />
-
     <?php   // Оставление отзывов
     $performerComment = Comment::getPerformerComment($project);
     
@@ -77,5 +75,3 @@
     <?php endif; ?>
     
 <?php endif; // eof isAuthenticated() ?>
-    
-<a href="<?php echo url_for('project/index') ?>">К списку проектов</a>

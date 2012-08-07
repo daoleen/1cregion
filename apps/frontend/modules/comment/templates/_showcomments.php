@@ -1,4 +1,8 @@
-<?php use_helper('Text'); $isSecondComment = false; ?>
+<?php
+use_stylesheet('comment.css');
+use_helper('Text');
+$isSecondComment = false;
+?>
 
 <?php if($project->Comments->count() > 0): ?>
 <div id="request"> <!--Пятая полоса-->
@@ -18,9 +22,9 @@
         <?php foreach($project->Comments as $comment): ?>
             <?php if($comment->User == $sf_user->getGuardUser()) $isSecondComment = true; ?>
             <tr>
-                <td>
+                <td class="left_align user_description">
                     <img src="/images/avatar.gif" alt="Аватар исполнителя" align="left" /> 
-                        <?php echo $comment->User; ?>
+                        <a href="<?php echo url_for('account', $comment->User); ?>" class="a_username"><?php echo $comment->User; ?></a>
                         <?php echo simple_format_text($comment->getComment()); ?>
                     
                         <?php if($comment->getIsSecurityDeal()): ?>
@@ -35,9 +39,9 @@
                             <strong>Исполнитель проекта</strong><br />
                         <?php endif; ?>
                 </td>
-                <td><?php echo $comment->getCost(); ?>&nbsp;<?php echo $comment->Currency; ?><br /><?php echo $comment->getCostType(); ?></td>
-                <td><?php echo $comment->getTerm(); ?>&nbsp;<?php echo $comment->getTermOptions(); ?></td>
-                <td><?php echo $comment->getCreatedAt(); ?></td>
+                <td class="center_align"><span class="cost"><?php echo $comment->getCost(); ?>&nbsp;<?php echo $comment->Currency; ?></span><br /><span class="cost_type"><?php echo $comment->getCostType(); ?></span></td>
+                <td class="center_align cost"><?php echo $comment->getTerm(); ?>&nbsp;<?php echo $comment->getTermOptions(); ?></td>
+                <td class="center_align cost"><?php echo $comment->getCreatedAt(); ?></td>
             </tr>
         <?php endforeach; ?>
     </table>
