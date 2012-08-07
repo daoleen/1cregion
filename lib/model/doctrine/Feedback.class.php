@@ -12,10 +12,32 @@
  */
 class Feedback extends BaseFeedback
 {
+    /**
+     * Получение всех отзывов пользователя
+     * @param sfGuardUser $user
+     * @return Doctrine_Collection<Feedback> 
+     */
     public static function getFeedbacks(sfGuardUser $user) {
         $q = Doctrine_Core::getTable('Feedback')
                 ->createQuery('f')
                 ->where('f.user_id = ?', $user->getId());
         return $q->execute();
+    }
+    
+    
+    /**
+     * Получение комментария
+     * @param Project $project  - проект
+     * @param sfGuardUser $from - от кого
+     * @param sfGuardUser $to   - кому
+     * @return Feedback
+     */
+    public static function getFeedback($project, $from, $to) {
+        $q = Doctrine_Query::create()
+                ->from('Feedback f')
+                ->where('f.project_id = ?', $project->getId())
+                ->andWhere('f.owner_id = ?', $from->getId())
+                ->andWhere('f.user_id = ?', $to->getId());
+        return $q->fetchOne();
     }
 }

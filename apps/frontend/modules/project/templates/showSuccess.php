@@ -48,12 +48,34 @@
 
 
 <?php if($sf_user->isAuthenticated()): ?>
-    <?php include_component('comment', 'showcomments', array('project' => $project)); ?>
-<?php endif; ?>
+    
+    <?php   // Компонентa для отображения списка комментариев
+            // а также для добавления нового коммента
+            include_component('comment', 'showcomments', array('project' => $project));
+    ?>
 
-<hr />
+    <hr />
 
-<?php if(($project->User == $sf_user->getGuardUser()) || $sf_user->hasCredential('admin') ): ?>
-    <a href="<?php echo url_for('project/edit?id='.$project->getId()) ?>">Редактировать</a>&nbsp;
-<?php endif; ?>
+    <?php   // Оставление отзывов
+    $performerComment = Comment::getPerformerComment($project);
+    
+    if($performerComment != null) {
+        if($project->User == $sf_user->getGuardUser() && Feedback::getFeedback($project, $sf_user->getGuardUser(), $performerComment->User) == null) {
+            // текущий юзер - владелец проекта
+            include_component('feedback', 'feedback', array('project' => $project, 'to' => $performerComment->User));
+        }
+        elseif($performerComment->getUserId() == $sf_user->getGuardUser()->getId() && Feedback::getFeedback($project, $sf_user->getGuardUser(), $project->User) == null) {
+            // текущий юзер - исполнитель проекта
+            include_component('feedback', 'feedback', array('project' => $project, 'to' => $project->User));
+        }
+    }
+    ?>
+    
+    <?php // Редактирование проекта ?>
+    <?php if(($project->User == $sf_user->getGuardUser()) || $sf_user->hasCredential('admin') ): ?>
+        <a href="<?php echo url_for('project/edit?id='.$project->getId()) ?>">Редактировать проект</a>&nbsp;
+    <?php endif; ?>
+    
+<?php endif; // eof isAuthenticated() ?>
+    
 <a href="<?php echo url_for('project/index') ?>">К списку проектов</a>

@@ -16,4 +16,17 @@ class Comment extends BaseComment
         $this->User = sfContext::getInstance()->getUser()->getGuardUser();
         parent::save($conn);
     }
+    
+    /**
+     * Получение комментария исполнителя проекта
+     * @param Project $project
+     * @return Comment 
+     */
+    public static function getPerformerComment($project) {
+        $q = Doctrine_Query::create()
+                ->from('Comment c')
+                ->where('c.project_id = ?', $project->getId())
+                ->andWhere('c.is_performer = ?', true);
+        return $q->fetchOne();
+    }
 }

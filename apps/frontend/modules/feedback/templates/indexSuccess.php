@@ -63,3 +63,6 @@
 <?php else: ?>
     У пользователя нет ни одного отзыва
 <?php endif; ?>
+
+    <br />
+<?php // include_component('feedback', 'feedback'); ?>

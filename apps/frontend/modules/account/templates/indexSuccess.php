@@ -8,7 +8,7 @@
         <li><a href="#">Нет уведомлений</a></li>
         <li><a href="#">Баланс: 0 руб.</a></li>
         <li><a href="#">Бонусы: <?php echo $user->Bonus->getBonus(); ?></a></li>
-        <li><a href="#">Отзывы: 124</a></li>
+        <li><a href="<?php echo url_for('feedback', $user); ?>">Отзывы: 124</a></li>
         <!--<li><a href="#">Рейтинг: 0.8</a></li>-->
         <li><a href="<?php echo url_for('@sf_guard_signout'); ?>" class="logout">Выход</a></li>
     </ul>

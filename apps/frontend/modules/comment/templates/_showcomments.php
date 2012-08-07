@@ -1,5 +1,6 @@
 <?php use_helper('Text'); $isSecondComment = false; ?>
 
+<?php if($project->Comments->count() > 0): ?>
 <div id="request"> <!--Пятая полоса-->
         <div id="top">
             <p class="left"> Заявки фрилансеров </p>
@@ -43,25 +44,9 @@
 
 </div> <!--#request-->
 <div id="clear"></div>
-
-
-<!--
-<?php if($sf_user->hasCredential('freelancer') && !$isSecondComment): ?>
-    <br />
-    <h4>Новый комментарий:</h4>
-    <table>
-        <thead><?php echo form_tag_for($form, '@comment'); ?></thead>
-        <tbody><?php echo $form; ?></tbody>
-        <tfoot>
-<input type="submit" value="Добавить" />
-            </form>
-        </tfoot>
-    </table>
 <?php endif; ?>
 
--->
-
-<?php if($sf_user->hasCredential('freelancer') && !$isSecondComment): ?>
+<?php if($sf_user->hasCredential('freelancer') && !$isSecondComment && ($project->User != $sf_user->getGuardUser())): ?>
     <?php use_stylesheets_for_form($form); ?>
     <div id="answer"> <!--Шестая полоса-->
         <div class="left"><span class="answer_on_project">Ответить на проект</span><br /><br />

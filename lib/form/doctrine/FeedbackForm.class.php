@@ -12,9 +12,13 @@ class FeedbackForm extends BaseFeedbackForm
 {
   public function configure()
   {
-      unset($this['user_id'], $this['owner_id'], $this['created_at'], $this['updated_at']);
+      //unset($this['user_id'], $this['owner_id'], $this['project_id'], $this['created_at'], $this['updated_at']);
+      unset($this['created_at'], $this['updated_at']);
       
       $this->widgetSchema['comment'] = new sfWidgetFormTextarea();
       $this->widgetSchema['feedback_type'] = new sfWidgetFormChoice(array('choices' => array('positive' => 'Положительный', 'negative' => 'Отрицательный')));
+      $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
+      $this->widgetSchema['owner_id'] = new sfWidgetFormInputHidden();
+      $this->widgetSchema['project_id'] = new sfWidgetFormInputHidden();
   }
 }

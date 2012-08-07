@@ -8,6 +8,12 @@ feedback:
   class: sfDoctrineRoute
   options: { model: sfGuardUser, type: object }
   param: { module: feedback, action: index }
+  
+feedback_new:
+  url:  /account/:username/feedback/new
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: feedback, action: new }
 
 
 # Личный кабинет пользователя
