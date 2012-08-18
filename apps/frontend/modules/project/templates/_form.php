@@ -112,6 +112,11 @@
             <td class="td_help"><?php echo ($form['office_country_id']->hasError()) ? $form['office_country_id']->renderError() : $form['office_country_id']->renderHelp(); ?></td>
         </tr>
         <tr>
+            <td class="td_title"><?php echo $form['office_region_id']->renderLabel(); ?></td>
+            <td class="td_input"><?php echo $form['office_region_id']->render(); ?></td>
+            <td class="td_help"><?php echo ($form['office_region_id']->hasError()) ? $form['office_region_id']->renderError() : $form['office_region_id']->renderHelp(); ?></td>
+        </tr>
+        <tr>
             <td class="td_title"><?php echo $form['office_city_id']->renderLabel(); ?></td>
             <td class="td_input"><?php echo $form['office_city_id']->render(); ?></td>
             <td class="td_help"><?php echo ($form['office_city_id']->hasError()) ? $form['office_city_id']->renderError() : $form['office_city_id']->renderHelp(); ?></td>

@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <td class="td_title">Местоположение</td>
-                    <td class="td_input" colspan="2"><?php echo $form['country_id']; ?>&nbsp;<?php echo $form['city_id']; ?></td>
+                    <td class="td_input" colspan="2"><?php echo $form['country_id']; ?>&nbsp;<?php echo $form['region_id']; ?>&nbsp;<?php echo $form['city_id']; ?></td>
                 </tr>
                 
                 <!-- Специализации -->

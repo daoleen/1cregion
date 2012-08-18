@@ -13,6 +13,7 @@ Project:
     category_id: { type: integer, notnull: true }
     work_type: { type: enum, values: ['Проекты', 'В офис'], default: 'Проекты' }
     office_country_id: { type: integer }
+    office_region_id: { type: integer }
     office_city_id: { type: integer }
     is_budget_by_agreement: { type: boolean, notnull: true, default: false }
     budget: { type: float, length: 8, notnull: true, default: 0.00 }
@@ -34,6 +35,11 @@ Project:
     OfficeCountry:
       class: Country
       local: office_country_id
+      foreign: id
+      foreignAlias: Projects
+    OfficeRegion:
+      class: Region
+      local: office_region_id
       foreign: id
       foreignAlias: Projects
     OfficeCity:

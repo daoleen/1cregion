@@ -21,6 +21,7 @@ class ProjectForm extends BaseProjectForm
       $this->widgetSchema['description'] = new sfWidgetFormTextarea(array(), array('class' => 'textarea_description'));
       $this->widgetSchema['file_src'] = new sfWidgetFormInputFile();
       $this->widgetSchema['office_country_id']->setOption('add_empty', 'Выберите страну');
+      $this->widgetSchema['office_region_id']->setOption('add_empty', 'Выберите регион');
       $this->widgetSchema['office_city_id']->setOption('add_empty', 'Выберите город');
       $this->widgetSchema['budget_currency_id']->setOption('add_empty', 'Выберите валюту');
       $this->widgetSchema['expires_at'] = new WidgetFormDateNorm(array('format' => '%day%/%month%/%year%', 'years' => array($year_now => $year_now, $year_now+1 => $year_now+1), 'can_be_empty' => true, 'empty_values' => array('day' => date('d'), 'month' => date('m'), 'year' => $year_now+1)));
@@ -63,6 +64,7 @@ class ProjectForm extends BaseProjectForm
           'category_id' => 'Специализация',
           'work_type' => 'Тип работы',
           'office_country_id' => 'Страна',
+          'office_region_id' => 'Регион',
           'office_city_id' => 'Город',
           'is_budget_by_agreement' => 'Бюджет по договоренности',
           'budget' => 'Бюджет',
@@ -81,6 +83,7 @@ class ProjectForm extends BaseProjectForm
           'category_id' => 'Выберите специализацию проекта',
           'work_type' => 'Выберите тип работы',
           'office_country_id' => 'Выберите вашу страну',
+          'office_region_id' => 'Выберите ваш регион',
           'office_city_id' => 'Выберите свой город',
           'is_budget_by_agreement' => 'Указывать бюджет необязательно',
           'budget' => 'Вещественное число',

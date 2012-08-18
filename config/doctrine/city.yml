@@ -7,11 +7,17 @@ City:
   columns:
     name: { type: string(64), notnull: true, unique: true }
     country_id: { type: integer, notnull: true }
+    region_id: { type: integer, notnull: true }
     
   relations:
     Country:
       class: Country
       local: country_id
+      foreign: id
+      foreignAlias: Cities
+    Region:
+      class: Region
+      local: region_id
       foreign: id
       foreignAlias: Cities
     

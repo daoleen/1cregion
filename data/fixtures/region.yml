@@ -1,0 +1,3689 @@
+Region:
+  Москва и Московская обл.:
+    id: 4312
+    country_id: 3159
+    name: Москва и Московская обл.
+  Санкт-Петербург и область:
+    id: 4925
+    country_id: 3159
+    name: Санкт-Петербург и область
+  Адыгея:
+    id: 1998532
+    country_id: 3159
+    name: Адыгея
+  Алтайский край:
+    id: 3160
+    country_id: 3159
+    name: Алтайский край
+  Амурская обл.:
+    id: 3223
+    country_id: 3159
+    name: Амурская обл.
+  Архангельская обл.:
+    id: 3251
+    country_id: 3159
+    name: Архангельская обл.
+  Астраханская обл.:
+    id: 3282
+    country_id: 3159
+    name: Астраханская обл.
+  Башкортостан(Башкирия):
+    id: 3296
+    country_id: 3159
+    name: Башкортостан(Башкирия)
+  Белгородская обл.:
+    id: 3352
+    country_id: 3159
+    name: Белгородская обл.
+  Брянская обл.:
+    id: 3371
+    country_id: 3159
+    name: Брянская обл.
+  Бурятия:
+    id: 3407
+    country_id: 3159
+    name: Бурятия
+  Владимирская обл.:
+    id: 3437
+    country_id: 3159
+    name: Владимирская обл.
+  Волгоградская обл.:
+    id: 3468
+    country_id: 3159
+    name: Волгоградская обл.
+  Вологодская обл.:
+    id: 3503
+    country_id: 3159
+    name: Вологодская обл.
+  Воронежская обл.:
+    id: 3529
+    country_id: 3159
+    name: Воронежская обл.
+  Дагестан:
+    id: 3630
+    country_id: 3159
+    name: Дагестан
+  Еврейская обл.:
+    id: 3673
+    country_id: 3159
+    name: Еврейская обл.
+  Ивановская обл.:
+    id: 3675
+    country_id: 3159
+    name: Ивановская обл.
+  Иркутская обл.:
+    id: 3703
+    country_id: 3159
+    name: Иркутская обл.
+  Кабардино-Балкария:
+    id: 3751
+    country_id: 3159
+    name: Кабардино-Балкария
+  Калининградская обл.:
+    id: 3761
+    country_id: 3159
+    name: Калининградская обл.
+  Калмыкия:
+    id: 3827
+    country_id: 3159
+    name: Калмыкия
+  Калужская обл.:
+    id: 3841
+    country_id: 3159
+    name: Калужская обл.
+  Камчатская обл.:
+    id: 3872
+    country_id: 3159
+    name: Камчатская обл.
+  Карелия:
+    id: 3892
+    country_id: 3159
+    name: Карелия
+  Кемеровская обл.:
+    id: 3921
+    country_id: 3159
+    name: Кемеровская обл.
+  Кировская обл.:
+    id: 3952
+    country_id: 3159
+    name: Кировская обл.
+  Коми:
+    id: 3994
+    country_id: 3159
+    name: Коми
+  Костромская обл.:
+    id: 4026
+    country_id: 3159
+    name: Костромская обл.
+  Краснодарский край:
+    id: 4052
+    country_id: 3159
+    name: Краснодарский край
+  Красноярский край:
+    id: 4105
+    country_id: 3159
+    name: Красноярский край
+  Курганская обл.:
+    id: 4176
+    country_id: 3159
+    name: Курганская обл.
+  Курская обл.:
+    id: 4198
+    country_id: 3159
+    name: Курская обл.
+  Липецкая обл.:
+    id: 4227
+    country_id: 3159
+    name: Липецкая обл.
+  Магаданская обл.:
+    id: 4243
+    country_id: 3159
+    name: Магаданская обл.
+  Марий Эл:
+    id: 4270
+    country_id: 3159
+    name: Марий Эл
+  Мордовия:
+    id: 4287
+    country_id: 3159
+    name: Мордовия
+  Мурманская обл.:
+    id: 4481
+    country_id: 3159
+    name: Мурманская обл.
+  Нижегородская (Горьковская):
+    id: 3563
+    country_id: 3159
+    name: Нижегородская (Горьковская)
+  Новгородская обл.:
+    id: 4503
+    country_id: 3159
+    name: Новгородская обл.
+  Новосибирская обл.:
+    id: 4528
+    country_id: 3159
+    name: Новосибирская обл.
+  Омская обл.:
+    id: 4561
+    country_id: 3159
+    name: Омская обл.
+  Оренбургская обл.:
+    id: 4593
+    country_id: 3159
+    name: Оренбургская обл.
+  Орловская обл.:
+    id: 4633
+    country_id: 3159
+    name: Орловская обл.
+  Пензенская обл.:
+    id: 4657
+    country_id: 3159
+    name: Пензенская обл.
+  Пермская обл.:
+    id: 4689
+    country_id: 3159
+    name: Пермская обл.
+  Приморский край:
+    id: 4734
+    country_id: 3159
+    name: Приморский край
+  Псковская обл.:
+    id: 4773
+    country_id: 3159
+    name: Псковская обл.
+  Ростовская обл.:
+    id: 4800
+    country_id: 3159
+    name: Ростовская обл.
+  Рязанская обл.:
+    id: 4861
+    country_id: 3159
+    name: Рязанская обл.
+  Самарская обл.:
+    id: 4891
+    country_id: 3159
+    name: Самарская обл.
+  Саратовская обл.:
+    id: 4969
+    country_id: 3159
+    name: Саратовская обл.
+  Саха (Якутия):
+    id: 5011
+    country_id: 3159
+    name: Саха (Якутия)
+  Сахалин:
+    id: 5052
+    country_id: 3159
+    name: Сахалин
+  Свердловская обл.:
+    id: 5080
+    country_id: 3159
+    name: Свердловская обл.
+  Северная Осетия:
+    id: 5151
+    country_id: 3159
+    name: Северная Осетия
+  Смоленская обл.:
+    id: 5161
+    country_id: 3159
+    name: Смоленская обл.
+  Ставропольский край:
+    id: 5191
+    country_id: 3159
+    name: Ставропольский край
+  Тамбовская обл.:
+    id: 5225
+    country_id: 3159
+    name: Тамбовская обл.
+  Татарстан:
+    id: 5246
+    country_id: 3159
+    name: Татарстан
+  Тверская обл.:
+    id: 3784
+    country_id: 3159
+    name: Тверская обл.
+  Томская обл.:
+    id: 5291
+    country_id: 3159
+    name: Томская обл.
+  Тува (Тувинская Респ.):
+    id: 5312
+    country_id: 3159
+    name: Тува (Тувинская Респ.)
+  Тульская обл.:
+    id: 5326
+    country_id: 3159
+    name: Тульская обл.
+  Тюменская обл.:
+    id: 5356
+    country_id: 3159
+    name: Тюменская обл.
+  Удмуртия:
+    id: 5404
+    country_id: 3159
+    name: Удмуртия
+  Ульяновская обл.:
+    id: 5432
+    country_id: 3159
+    name: Ульяновская обл.
+  Уральская обл.:
+    id: 5458
+    country_id: 3159
+    name: Уральская обл.
+  Хабаровский край:
+    id: 5473
+    country_id: 3159
+    name: Хабаровский край
+  Хакасия:
+    id: 2316497
+    country_id: 3159
+    name: Хакасия
+  Ханты-Мансийский АО:
+    id: 2499002
+    country_id: 3159
+    name: Ханты-Мансийский АО
+  Челябинская обл.:
+    id: 5507
+    country_id: 3159
+    name: Челябинская обл.
+  Чечено-Ингушетия:
+    id: 5543
+    country_id: 3159
+    name: Чечено-Ингушетия
+  Читинская обл.:
+    id: 5555
+    country_id: 3159
+    name: Читинская обл.
+  Чувашия:
+    id: 5600
+    country_id: 3159
+    name: Чувашия
+  Чукотский АО:
+    id: 2415585
+    country_id: 3159
+    name: Чукотский АО
+  Ямало-Ненецкий АО:
+    id: 5019394
+    country_id: 3159
+    name: Ямало-Ненецкий АО
+  Ярославская обл.:
+    id: 5625
+    country_id: 3159
+    name: Ярославская обл.
+  Виктория:
+    id: 5
+    country_id: 4
+    name: Виктория
+  Западная Австралия:
+    id: 16
+    country_id: 4
+    name: Западная Австралия
+  Кинсленд:
+    id: 23
+    country_id: 4
+    name: Кинсленд
+  Новый Южный Уэльс:
+    id: 35
+    country_id: 4
+    name: Новый Южный Уэльс
+  Северная Территория:
+    id: 51
+    country_id: 4
+    name: Северная Территория
+  Тасмания:
+    id: 54
+    country_id: 4
+    name: Тасмания
+  Территория Федеральной столицы:
+    id: 58
+    country_id: 4
+    name: Территория Федеральной столицы
+  Южная Австралия:
+    id: 60
+    country_id: 4
+    name: Южная Австралия
+  Австрия:
+    id: 277659
+    country_id: 63
+    name: Австрия
+  Вена:
+    id: 64
+    country_id: 63
+    name: Вена
+  Верхняя Австрия:
+    id: 66
+    country_id: 63
+    name: Верхняя Австрия
+  Зальцбург:
+    id: 70
+    country_id: 63
+    name: Зальцбург
+  Каринтия:
+    id: 72
+    country_id: 63
+    name: Каринтия
+  Нижняя Австрия:
+    id: 75
+    country_id: 63
+    name: Нижняя Австрия
+  Штирия:
+    id: 77
+    country_id: 63
+    name: Штирия
+  Азербайджан:
+    id: 82
+    country_id: 81
+    name: Азербайджан
+  Нагорный Карабах:
+    id: 164
+    country_id: 81
+    name: Нагорный Карабах
+  Нахичеванская обл.:
+    id: 167
+    country_id: 81
+    name: Нахичеванская обл.
+  Anguilla:
+    id: 174
+    country_id: 173
+    name: Anguilla
+  Буэнос-Айрес:
+    id: 178
+    country_id: 177
+    name: Буэнос-Айрес
+  Жужуй:
+    id: 194
+    country_id: 177
+    name: Жужуй
+  Катамарка:
+    id: 196
+    country_id: 177
+    name: Катамарка
+  Кордоба:
+    id: 198
+    country_id: 177
+    name: Кордоба
+  Корриентес:
+    id: 204
+    country_id: 177
+    name: Корриентес
+  Ла-Пампа:
+    id: 207
+    country_id: 177
+    name: Ла-Пампа
+  Ла-Риоха:
+    id: 210
+    country_id: 177
+    name: Ла-Риоха
+  Мендоса:
+    id: 212
+    country_id: 177
+    name: Мендоса
+  Мисьонес:
+    id: 215
+    country_id: 177
+    name: Мисьонес
+  Неукен:
+    id: 217
+    country_id: 177
+    name: Неукен
+  Сальта:
+    id: 219
+    country_id: 177
+    name: Сальта
+  Сан-Луис:
+    id: 221
+    country_id: 177
+    name: Сан-Луис
+  Сан-Хуан:
+    id: 223
+    country_id: 177
+    name: Сан-Хуан
+  Санта-Крус:
+    id: 225
+    country_id: 177
+    name: Санта-Крус
+  Санта-Фе:
+    id: 227
+    country_id: 177
+    name: Санта-Фе
+  Сантьяго-дель-Эстеро:
+    id: 230
+    country_id: 177
+    name: Сантьяго-дель-Эстеро
+  Тукуман:
+    id: 232
+    country_id: 177
+    name: Тукуман
+  Формоса:
+    id: 234
+    country_id: 177
+    name: Формоса
+  Чако:
+    id: 236
+    country_id: 177
+    name: Чако
+  Чубут:
+    id: 239
+    country_id: 177
+    name: Чубут
+  Энтре-Риос:
+    id: 241
+    country_id: 177
+    name: Энтре-Риос
+  Армения:
+    id: 277654
+    country_id: 245
+    name: Армения
+  Ереванская область:
+    id: 246
+    country_id: 245
+    name: Ереванская область
+  Арулько:
+    id: 7716133
+    country_id: 7716093
+    name: Арулько
+  Брестская обл.:
+    id: 249
+    country_id: 248
+    name: Брестская обл.
+  Витебская обл.:
+    id: 272
+    country_id: 248
+    name: Витебская обл.
+  Гомельская обл.:
+    id: 304
+    country_id: 248
+    name: Гомельская обл.
+  Гродненская обл.:
+    id: 330
+    country_id: 248
+    name: Гродненская обл.
+  Минская обл.:
+    id: 349
+    country_id: 248
+    name: Минская обл.
+  Могилевская обл.:
+    id: 377
+    country_id: 248
+    name: Могилевская обл.
+  Belize:
+    id: 402
+    country_id: 401
+    name: Belize
+  Антверпен:
+    id: 405
+    country_id: 404
+    name: Антверпен
+  Бельгия:
+    id: 277662
+    country_id: 404
+    name: Бельгия
+  Брюссель:
+    id: 408
+    country_id: 404
+    name: Брюссель
+  Восточная Фландрия:
+    id: 410
+    country_id: 404
+    name: Восточная Фландрия
+  Западная Фландрия:
+    id: 413
+    country_id: 404
+    name: Западная Фландрия
+  Лимбург:
+    id: 417
+    country_id: 404
+    name: Лимбург
+  Льеж:
+    id: 419
+    country_id: 404
+    name: Льеж
+  Эно:
+    id: 422
+    country_id: 404
+    name: Эно
+  Hamilton:
+    id: 426
+    country_id: 425
+    name: Hamilton
+  Болгария:
+    id: 277660
+    country_id: 428
+    name: Болгария
+  Бургас:
+    id: 429
+    country_id: 428
+    name: Бургас
+  Варна:
+    id: 431
+    country_id: 428
+    name: Варна
+  Великотырново:
+    id: 433
+    country_id: 428
+    name: Великотырново
+  Видин:
+    id: 436
+    country_id: 428
+    name: Видин
+  Габрово:
+    id: 438
+    country_id: 428
+    name: Габрово
+  Пазарджик:
+    id: 440
+    country_id: 428
+    name: Пазарджик
+  Перник:
+    id: 442
+    country_id: 428
+    name: Перник
+  Плевен:
+    id: 444
+    country_id: 428
+    name: Плевен
+  Пловдив:
+    id: 446
+    country_id: 428
+    name: Пловдив
+  Русе:
+    id: 449
+    country_id: 428
+    name: Русе
+  Силистра:
+    id: 451
+    country_id: 428
+    name: Силистра
+  Сливен:
+    id: 453
+    country_id: 428
+    name: Сливен
+  София град:
+    id: 455
+    country_id: 428
+    name: София град
+  Стара Загора:
+    id: 457
+    country_id: 428
+    name: Стара Загора
+  Хасково:
+    id: 460
+    country_id: 428
+    name: Хасково
+  Шумен:
+    id: 463
+    country_id: 428
+    name: Шумен
+  Ямбол:
+    id: 465
+    country_id: 428
+    name: Ямбол
+  Акри:
+    id: 468
+    country_id: 467
+    name: Акри
+  Алагоас:
+    id: 470
+    country_id: 467
+    name: Алагоас
+  Амазонас:
+    id: 473
+    country_id: 467
+    name: Амазонас
+  Амапа:
+    id: 475
+    country_id: 467
+    name: Амапа
+  Баия:
+    id: 477
+    country_id: 467
+    name: Баия
+  Гояс:
+    id: 490
+    country_id: 467
+    name: Гояс
+  Мараньян:
+    id: 493
+    country_id: 467
+    name: Мараньян
+  Мату-Гросу:
+    id: 497
+    country_id: 467
+    name: Мату-Гросу
+  Мату-Гросу-ду-Сул:
+    id: 499
+    country_id: 467
+    name: Мату-Гросу-ду-Сул
+  Минас-Жерайс:
+    id: 503
+    country_id: 467
+    name: Минас-Жерайс
+  Пара:
+    id: 521
+    country_id: 467
+    name: Пара
+  Параиба:
+    id: 524
+    country_id: 467
+    name: Параиба
+  Парана:
+    id: 527
+    country_id: 467
+    name: Парана
+  Пернамбуку:
+    id: 533
+    country_id: 467
+    name: Пернамбуку
+  Пиауи:
+    id: 539
+    country_id: 467
+    name: Пиауи
+  Рио-де-Жанейро:
+    id: 542
+    country_id: 467
+    name: Рио-де-Жанейро
+  Риу-Гранди-ду-Норти:
+    id: 550
+    country_id: 467
+    name: Риу-Гранди-ду-Норти
+  Риу-Гранди-ду-Сул:
+    id: 554
+    country_id: 467
+    name: Риу-Гранди-ду-Сул
+  Рондония:
+    id: 568
+    country_id: 467
+    name: Рондония
+  Сан-Паулу:
+    id: 570
+    country_id: 467
+    name: Сан-Паулу
+  Санта-Катарина:
+    id: 595
+    country_id: 467
+    name: Санта-Катарина
+  Сеара:
+    id: 603
+    country_id: 467
+    name: Сеара
+  Сержипи:
+    id: 609
+    country_id: 467
+    name: Сержипи
+  Федеральный округ:
+    id: 611
+    country_id: 467
+    name: Федеральный округ
+  Эспириту-Санту:
+    id: 613
+    country_id: 467
+    name: Эспириту-Санту
+  Англия:
+    id: 617
+    country_id: 616
+    name: Англия
+  Великобритания:
+    id: 277657
+    country_id: 616
+    name: Великобритания
+  Северная Ирландия:
+    id: 881
+    country_id: 616
+    name: Северная Ирландия
+  Уэльс:
+    id: 889
+    country_id: 616
+    name: Уэльс
+  Шотландия:
+    id: 899
+    country_id: 616
+    name: Шотландия
+  Jasz-Nagykun-Szolnok:
+    id: 925
+    country_id: 924
+    name: Jasz-Nagykun-Szolnok
+  Баранья:
+    id: 928
+    country_id: 924
+    name: Баранья
+  Бач-Кишкун:
+    id: 930
+    country_id: 924
+    name: Бач-Кишкун
+  Бекеш:
+    id: 934
+    country_id: 924
+    name: Бекеш
+  Боршод-Абауй-Земплен:
+    id: 936
+    country_id: 924
+    name: Боршод-Абауй-Земплен
+  Будапешт:
+    id: 939
+    country_id: 924
+    name: Будапешт
+  Ваш:
+    id: 941
+    country_id: 924
+    name: Ваш
+  Веспрем:
+    id: 943
+    country_id: 924
+    name: Веспрем
+  Дьёр-Шопрон:
+    id: 945
+    country_id: 924
+    name: Дьёр-Шопрон
+  Зала:
+    id: 947
+    country_id: 924
+    name: Зала
+  Комаром:
+    id: 950
+    country_id: 924
+    name: Комаром
+  Ноград:
+    id: 952
+    country_id: 924
+    name: Ноград
+  Пешт:
+    id: 954
+    country_id: 924
+    name: Пешт
+  Сабольч-Сатмар:
+    id: 956
+    country_id: 924
+    name: Сабольч-Сатмар
+  Фейер:
+    id: 958
+    country_id: 924
+    name: Фейер
+  Хайду-Бихар:
+    id: 961
+    country_id: 924
+    name: Хайду-Бихар
+  Хевеш:
+    id: 964
+    country_id: 924
+    name: Хевеш
+  Чонград:
+    id: 967
+    country_id: 924
+    name: Чонград
+  Dong Bang Song Cuu Long:
+    id: 972
+    country_id: 971
+    name: Dong Bang Song Cuu Long
+  Dong Bang Song Hong:
+    id: 975
+    country_id: 971
+    name: Dong Bang Song Hong
+  Dong Nam:
+    id: 979
+    country_id: 971
+    name: Dong Nam
+  Duyen Hai Mien Trung:
+    id: 982
+    country_id: 971
+    name: Duyen Hai Mien Trung
+  Khu Bon:
+    id: 987
+    country_id: 971
+    name: Khu Bon
+  Mien Nui Va Trung:
+    id: 990
+    country_id: 971
+    name: Mien Nui Va Trung
+  Thai Nguyen:
+    id: 992
+    country_id: 971
+    name: Thai Nguyen
+  Artibonite:
+    id: 995
+    country_id: 994
+    name: Artibonite
+  Grand`Anse:
+    id: 997
+    country_id: 994
+    name: Grand`Anse
+  Nord-Ouest:
+    id: 999
+    country_id: 994
+    name: Nord-Ouest
+  Ouest:
+    id: 1001
+    country_id: 994
+    name: Ouest
+  Sud:
+    id: 1003
+    country_id: 994
+    name: Sud
+  Sud-Est:
+    id: 1005
+    country_id: 994
+    name: Sud-Est
+  Grande-Terre:
+    id: 1008
+    country_id: 1007
+    name: Grande-Terre
+  Бас-Тер:
+    id: 1010
+    country_id: 1007
+    name: Бас-Тер
+  Berlin:
+    id: 1013
+    country_id: 1012
+    name: Berlin
+  Brandenburg:
+    id: 1015
+    country_id: 1012
+    name: Brandenburg
+  Mecklenburg-Vorpommern:
+    id: 1020
+    country_id: 1012
+    name: Mecklenburg-Vorpommern
+  Sachsen:
+    id: 1028
+    country_id: 1012
+    name: Sachsen
+  Sachsen-Anhalt:
+    id: 1043
+    country_id: 1012
+    name: Sachsen-Anhalt
+  Thuringen:
+    id: 1053
+    country_id: 1012
+    name: Thuringen
+  Бавария:
+    id: 1064
+    country_id: 1012
+    name: Бавария
+  Баден-Вюртемберг:
+    id: 1083
+    country_id: 1012
+    name: Баден-Вюртемберг
+  Бремен:
+    id: 1103
+    country_id: 1012
+    name: Бремен
+  Гамбург:
+    id: 1106
+    country_id: 1012
+    name: Гамбург
+  Германия:
+    id: 277663
+    country_id: 1012
+    name: Германия
+  Гессен:
+    id: 1108
+    country_id: 1012
+    name: Гессен
+  Нижняя Саксония:
+    id: 1120
+    country_id: 1012
+    name: Нижняя Саксония
+  Рейнланд-Пфальц:
+    id: 1137
+    country_id: 1012
+    name: Рейнланд-Пфальц
+  Саарлэнд:
+    id: 3024114
+    country_id: 1012
+    name: Саарлэнд
+  Саарская область:
+    id: 1149
+    country_id: 1012
+    name: Саарская область
+  Северный Рейн-Вестфалия:
+    id: 1152
+    country_id: 1012
+    name: Северный Рейн-Вестфалия
+  Шлезвиг-Гольштейн:
+    id: 1201
+    country_id: 1012
+    name: Шлезвиг-Гольштейн
+  Гелдерланд:
+    id: 1207
+    country_id: 1206
+    name: Гелдерланд
+  Гронинген:
+    id: 1213
+    country_id: 1206
+    name: Гронинген
+  Дренте:
+    id: 1215
+    country_id: 1206
+    name: Дренте
+  Лимбург:
+    id: 1217
+    country_id: 1206
+    name: Лимбург
+  Оверэйсел:
+    id: 1222
+    country_id: 1206
+    name: Оверэйсел
+  Северная Голландия:
+    id: 1227
+    country_id: 1206
+    name: Северная Голландия
+  Северный Брабант:
+    id: 1235
+    country_id: 1206
+    name: Северный Брабант
+  Утрехт:
+    id: 1240
+    country_id: 1206
+    name: Утрехт
+  Фрисландия:
+    id: 1244
+    country_id: 1206
+    name: Фрисландия
+  Южная Голландия:
+    id: 1246
+    country_id: 1206
+    name: Южная Голландия
+  Тегусигальпа:
+    id: 2567441
+    country_id: 2567393
+    name: Тегусигальпа
+  Гонконг:
+    id: 277558
+    country_id: 277557
+    name: Гонконг
+  Ahaia:
+    id: 1259
+    country_id: 1258
+    name: Ahaia
+  Attiki:
+    id: 1261
+    country_id: 1258
+    name: Attiki
+  Drama:
+    id: 1264
+    country_id: 1258
+    name: Drama
+  Evros:
+    id: 1266
+    country_id: 1258
+    name: Evros
+  Hania:
+    id: 1268
+    country_id: 1258
+    name: Hania
+  Ioannina:
+    id: 1270
+    country_id: 1258
+    name: Ioannina
+  Iraklion:
+    id: 1272
+    country_id: 1258
+    name: Iraklion
+  Kavala:
+    id: 1274
+    country_id: 1258
+    name: Kavala
+  Magnisia:
+    id: 1276
+    country_id: 1258
+    name: Magnisia
+  Thessaloniki:
+    id: 1278
+    country_id: 1258
+    name: Thessaloniki
+  Корфу:
+    id: 6128641
+    country_id: 1258
+    name: Корфу
+  Абхазия:
+    id: 1281
+    country_id: 1280
+    name: Абхазия
+  Аджария:
+    id: 1292
+    country_id: 1280
+    name: Аджария
+  Грузия:
+    id: 1296
+    country_id: 1280
+    name: Грузия
+  Южная Осетия:
+    id: 1363
+    country_id: 1280
+    name: Южная Осетия
+  Baйле:
+    id: 1367
+    country_id: 1366
+    name: Baйле
+  Ceверная Ютландия:
+    id: 1369
+    country_id: 1366
+    name: Ceверная Ютландия
+  Opxyс:
+    id: 1371
+    country_id: 1366
+    name: Opxyс
+  Pocкилле:
+    id: 1374
+    country_id: 1366
+    name: Pocкилле
+  Pибе:
+    id: 1376
+    country_id: 1366
+    name: Pибе
+  Копенгаген:
+    id: 2331485
+    country_id: 1366
+    name: Копенгаген
+  Фюн:
+    id: 1378
+    country_id: 1366
+    name: Фюн
+  Хельсингор:
+    id: 2077237
+    country_id: 1366
+    name: Хельсингор
+  Санто-доминго:
+    id: 2578001
+    country_id: 2577958
+    name: Санто-доминго
+  Аль-Кахира:
+    id: 1381
+    country_id: 1380
+    name: Аль-Кахира
+  Асуан:
+    id: 1383
+    country_id: 1380
+    name: Асуан
+  Асьют:
+    id: 1385
+    country_id: 1380
+    name: Асьют
+  Бени-Суэйф:
+    id: 1387
+    country_id: 1380
+    name: Бени-Суэйф
+  Гарбия:
+    id: 1389
+    country_id: 1380
+    name: Гарбия
+  Думьят:
+    id: 1391
+    country_id: 1380
+    name: Думьят
+  Египет:
+    id: 277674
+    country_id: 1380
+    name: Египет
+  Синай:
+    id: 3409961
+    country_id: 1380
+    name: Синай
+  Иерусалим:
+    id: 1449
+    country_id: 1393
+    name: Иерусалим
+  Тель-Авив:
+    id: 1440
+    country_id: 1393
+    name: Тель-Авив
+  Хадаром:
+    id: 1394
+    country_id: 1393
+    name: Хадаром
+  Хамеркац:
+    id: 1403
+    country_id: 1393
+    name: Хамеркац
+  Хацафон:
+    id: 1416
+    country_id: 1393
+    name: Хацафон
+  Хефа:
+    id: 1429
+    country_id: 1393
+    name: Хефа
+  Bangla:
+    id: 1452
+    country_id: 1451
+    name: Bangla
+  Chhattisgarh:
+    id: 1468
+    country_id: 1451
+    name: Chhattisgarh
+  Karnataka:
+    id: 1473
+    country_id: 1451
+    name: Karnataka
+  Uttaranchal:
+    id: 1488
+    country_id: 1451
+    name: Uttaranchal
+  Андхра-Прадеш:
+    id: 1491
+    country_id: 1451
+    name: Андхра-Прадеш
+  Ассам:
+    id: 1509
+    country_id: 1451
+    name: Ассам
+  Бихар:
+    id: 1512
+    country_id: 1451
+    name: Бихар
+  Гуджарат:
+    id: 1521
+    country_id: 1451
+    name: Гуджарат
+  Джамму и Кашмир:
+    id: 1539
+    country_id: 1451
+    name: Джамму и Кашмир
+  Индия:
+    id: 277673
+    country_id: 1451
+    name: Индия
+  Керала:
+    id: 1545
+    country_id: 1451
+    name: Керала
+  Мадхья-Прадеш:
+    id: 1548
+    country_id: 1451
+    name: Мадхья-Прадеш
+  Манипур:
+    id: 1561
+    country_id: 1451
+    name: Манипур
+  Махараштра:
+    id: 1563
+    country_id: 1451
+    name: Махараштра
+  Мегхалая:
+    id: 1586
+    country_id: 1451
+    name: Мегхалая
+  Орисса:
+    id: 1588
+    country_id: 1451
+    name: Орисса
+  Пенджаб:
+    id: 1591
+    country_id: 1451
+    name: Пенджаб
+  Пондишери:
+    id: 1596
+    country_id: 1451
+    name: Пондишери
+  Раджастхан:
+    id: 1598
+    country_id: 1451
+    name: Раджастхан
+  Тамилнад:
+    id: 1612
+    country_id: 1451
+    name: Тамилнад
+  Трипура:
+    id: 1629
+    country_id: 1451
+    name: Трипура
+  Уттар-Прадеш:
+    id: 1631
+    country_id: 1451
+    name: Уттар-Прадеш
+  Харьяна:
+    id: 1656
+    country_id: 1451
+    name: Харьяна
+  Чандигарх:
+    id: 1661
+    country_id: 1451
+    name: Чандигарх
+  Индонезия:
+    id: 277560
+    country_id: 277559
+    name: Индонезия
+  Иордания:
+    id: 277562
+    country_id: 277561
+    name: Иордания
+  Багдад:
+    id: 3410574
+    country_id: 3410238
+    name: Багдад
+  Басра:
+    id: 3410602
+    country_id: 3410238
+    name: Басра
+  Мосул:
+    id: 3410645
+    country_id: 3410238
+    name: Мосул
+  Azarbayjan-e Khavari:
+    id: 1664
+    country_id: 1663
+    name: Azarbayjan-e Khavari
+  Esfahan:
+    id: 1667
+    country_id: 1663
+    name: Esfahan
+  Hamadan:
+    id: 1669
+    country_id: 1663
+    name: Hamadan
+  Kordestan:
+    id: 1671
+    country_id: 1663
+    name: Kordestan
+  Markazi:
+    id: 1673
+    country_id: 1663
+    name: Markazi
+  Sistan-e Baluches:
+    id: 1675
+    country_id: 1663
+    name: Sistan-e Baluches
+  Yazd:
+    id: 1677
+    country_id: 1663
+    name: Yazd
+  Керман:
+    id: 1679
+    country_id: 1663
+    name: Керман
+  Керманшахан:
+    id: 1681
+    country_id: 1663
+    name: Керманшахан
+  Мазендеран:
+    id: 1683
+    country_id: 1663
+    name: Мазендеран
+  Тегеран:
+    id: 1686
+    country_id: 1663
+    name: Тегеран
+  Фарс:
+    id: 1688
+    country_id: 1663
+    name: Фарс
+  Хорасан:
+    id: 1691
+    country_id: 1663
+    name: Хорасан
+  Хузистан:
+    id: 1693
+    country_id: 1663
+    name: Хузистан
+  Cork:
+    id: 1697
+    country_id: 1696
+    name: Cork
+  Dublin:
+    id: 1699
+    country_id: 1696
+    name: Dublin
+  Limerick:
+    id: 1702
+    country_id: 1696
+    name: Limerick
+  Waterford:
+    id: 1704
+    country_id: 1696
+    name: Waterford
+  Cantabria:
+    id: 1708
+    country_id: 1707
+    name: Cantabria
+  Ceuta:
+    id: 1710
+    country_id: 1707
+    name: Ceuta
+  Gerona:
+    id: 4093580
+    country_id: 1707
+    name: Gerona
+  Granada:
+    id: 1712
+    country_id: 1707
+    name: Granada
+  La Rioja:
+    id: 1714
+    country_id: 1707
+    name: La Rioja
+  Salamanca:
+    id: 1716
+    country_id: 1707
+    name: Salamanca
+  Алава:
+    id: 1718
+    country_id: 1707
+    name: Алава
+  Аликанте:
+    id: 1720
+    country_id: 1707
+    name: Аликанте
+  Альбасете:
+    id: 1724
+    country_id: 1707
+    name: Альбасете
+  Альмерия:
+    id: 1726
+    country_id: 1707
+    name: Альмерия
+  Астурия:
+    id: 1728
+    country_id: 1707
+    name: Астурия
+  Барселона:
+    id: 1731
+    country_id: 1707
+    name: Барселона
+  Бискайя:
+    id: 1738
+    country_id: 1707
+    name: Бискайя
+  Бургос:
+    id: 1740
+    country_id: 1707
+    name: Бургос
+  Валенсия:
+    id: 1742
+    country_id: 1707
+    name: Валенсия
+  Валья­долид:
+    id: 1744
+    country_id: 1707
+    name: Валья­долид
+  Испания:
+    id: 277661
+    country_id: 1707
+    name: Испания
+  Кадис:
+    id: 1746
+    country_id: 1707
+    name: Кадис
+  Касерес:
+    id: 1749
+    country_id: 1707
+    name: Касерес
+  Кордова:
+    id: 1753
+    country_id: 1707
+    name: Кордова
+  Лас-Пальмас:
+    id: 1755
+    country_id: 1707
+    name: Лас-Пальмас
+  Леон:
+    id: 1757
+    country_id: 1707
+    name: Леон
+  Лерида:
+    id: 1759
+    country_id: 1707
+    name: Лерида
+  Луго:
+    id: 1761
+    country_id: 1707
+    name: Луго
+  Мадрид:
+    id: 1763
+    country_id: 1707
+    name: Мадрид
+  Малага:
+    id: 1765
+    country_id: 1707
+    name: Малага
+  Мурсия:
+    id: 1767
+    country_id: 1707
+    name: Мурсия
+  Острова Балеарские:
+    id: 1769
+    country_id: 1707
+    name: Острова Балеарские
+  Паленсия:
+    id: 1771
+    country_id: 1707
+    name: Паленсия
+  Самора:
+    id: 1774
+    country_id: 1707
+    name: Самора
+  Санта-Крус-де-Тенерифе:
+    id: 1776
+    country_id: 1707
+    name: Санта-Крус-де-Тенерифе
+  Сарагоса:
+    id: 1778
+    country_id: 1707
+    name: Сарагоса
+  Севилья:
+    id: 1780
+    country_id: 1707
+    name: Севилья
+  Сьюдад-Реаль:
+    id: 1782
+    country_id: 1707
+    name: Сьюдад-Реаль
+  Хаэн:
+    id: 1784
+    country_id: 1707
+    name: Хаэн
+  Абруцци:
+    id: 1787
+    country_id: 1786
+    name: Абруцци
+  Апулия:
+    id: 1789
+    country_id: 1786
+    name: Апулия
+  Венеция:
+    id: 1802
+    country_id: 1786
+    name: Венеция
+  Италия:
+    id: 277668
+    country_id: 1786
+    name: Италия
+  Калабрия:
+    id: 1806
+    country_id: 1786
+    name: Калабрия
+  Кампания:
+    id: 1810
+    country_id: 1786
+    name: Кампания
+  Лацио:
+    id: 1819
+    country_id: 1786
+    name: Лацио
+  Лигурия:
+    id: 1821
+    country_id: 1786
+    name: Лигурия
+  Ломбардия:
+    id: 1826
+    country_id: 1786
+    name: Ломбардия
+  Марке:
+    id: 1838
+    country_id: 1786
+    name: Марке
+  О. Сардиния:
+    id: 1841
+    country_id: 1786
+    name: О. Сардиния
+  О. Сицилия:
+    id: 1844
+    country_id: 1786
+    name: О. Сицилия
+  Пьемонт:
+    id: 1858
+    country_id: 1786
+    name: Пьемонт
+  Тоскана:
+    id: 1864
+    country_id: 1786
+    name: Тоскана
+  Трентино-Альто-Адидже:
+    id: 1876
+    country_id: 1786
+    name: Трентино-Альто-Адидже
+  Умбрия:
+    id: 1879
+    country_id: 1786
+    name: Умбрия
+  Фриули-Венеция-Джулия:
+    id: 1882
+    country_id: 1786
+    name: Фриули-Венеция-Джулия
+  Эмилия-Романья:
+    id: 1885
+    country_id: 1786
+    name: Эмилия-Романья
+  о. Сан-Джорджо Маджоре:
+    id: 2416357
+    country_id: 1786
+    name: о. Сан-Джорджо Маджоре
+  Акмолинская обл.:
+    id: 2564700
+    country_id: 1894
+    name: Акмолинская обл.
+  Актюбинская обл.:
+    id: 1895
+    country_id: 1894
+    name: Актюбинская обл.
+  Алма-Атинская обл.:
+    id: 1911
+    country_id: 1894
+    name: Алма-Атинская обл.
+  Восточно-Казахстанская обл.:
+    id: 1924
+    country_id: 1894
+    name: Восточно-Казахстанская обл.
+  Гурьевская обл.:
+    id: 1942
+    country_id: 1894
+    name: Гурьевская обл.
+  Джамбулская обл.:
+    id: 1954
+    country_id: 1894
+    name: Джамбулская обл.
+  Джезказганская обл.:
+    id: 1974
+    country_id: 1894
+    name: Джезказганская обл.
+  Западно-Казахстанская обл.:
+    id: 1934356
+    country_id: 1894
+    name: Западно-Казахстанская обл.
+  Казахстан:
+    id: 277655
+    country_id: 1894
+    name: Казахстан
+  Карагандинская обл.:
+    id: 1994
+    country_id: 1894
+    name: Карагандинская обл.
+  Кзыл-Ординская обл.:
+    id: 2010
+    country_id: 1894
+    name: Кзыл-Ординская обл.
+  Кокчетавская обл.:
+    id: 2021
+    country_id: 1894
+    name: Кокчетавская обл.
+  Кустанайская обл.:
+    id: 2040
+    country_id: 1894
+    name: Кустанайская обл.
+  Мангышлакская обл.:
+    id: 2055
+    country_id: 1894
+    name: Мангышлакская обл.
+  Павлодарская обл.:
+    id: 2061
+    country_id: 1894
+    name: Павлодарская обл.
+  Северо-Казахстанская обл.:
+    id: 2074
+    country_id: 1894
+    name: Северо-Казахстанская обл.
+  Семипалатинская обл.:
+    id: 2084
+    country_id: 1894
+    name: Семипалатинская обл.
+  Талды-Курганская обл.:
+    id: 2105
+    country_id: 1894
+    name: Талды-Курганская обл.
+  Тургайская обл.:
+    id: 2120
+    country_id: 1894
+    name: Тургайская обл.
+  Целиноградская обл.:
+    id: 2128
+    country_id: 1894
+    name: Целиноградская обл.
+  Чимкентская обл.:
+    id: 2146
+    country_id: 1894
+    name: Чимкентская обл.
+  Littoral:
+    id: 2164
+    country_id: 2163
+    name: Littoral
+  Sudouest:
+    id: 2166
+    country_id: 2163
+    name: Sudouest
+  Северная:
+    id: 2168
+    country_id: 2163
+    name: Северная
+  Центральная:
+    id: 2170
+    country_id: 2163
+    name: Центральная
+  Альберта:
+    id: 2173
+    country_id: 2172
+    name: Альберта
+  Британская Колумбия:
+    id: 2181
+    country_id: 2172
+    name: Британская Колумбия
+  Квебек:
+    id: 2201
+    country_id: 2172
+    name: Квебек
+  Манитоба:
+    id: 2229
+    country_id: 2172
+    name: Манитоба
+  Новая Шотландия:
+    id: 2232
+    country_id: 2172
+    name: Новая Шотландия
+  Нью-Брунсвик:
+    id: 2235
+    country_id: 2172
+    name: Нью-Брунсвик
+  Ньюфаундленд:
+    id: 2239
+    country_id: 2172
+    name: Ньюфаундленд
+  Онтарио:
+    id: 2242
+    country_id: 2172
+    name: Онтарио
+  Принц Эдуард:
+    id: 2291
+    country_id: 2172
+    name: Принц Эдуард
+  Саскачеван:
+    id: 2293
+    country_id: 2172
+    name: Саскачеван
+  Багамы:
+    id: 11564803
+    country_id: 582029
+    name: Багамы
+  Government controlled area:
+    id: 2298
+    country_id: 2297
+    name: Government controlled area
+  Turkish controlled area:
+    id: 2300
+    country_id: 2297
+    name: Turkish controlled area
+  Иссык-Кульская обл.:
+    id: 2304
+    country_id: 2303
+    name: Иссык-Кульская обл.
+  Кыргызстан:
+    id: 2316
+    country_id: 2303
+    name: Кыргызстан
+  Нарынская обл.:
+    id: 2327
+    country_id: 2303
+    name: Нарынская обл.
+  Ошская обл.:
+    id: 2340
+    country_id: 2303
+    name: Ошская обл.
+  Таласская обл.:
+    id: 2365
+    country_id: 2303
+    name: Таласская обл.
+  Xinjiang:
+    id: 2375
+    country_id: 2374
+    name: Xinjiang
+  Внутренняя Монголия:
+    id: 2379
+    country_id: 2374
+    name: Внутренняя Монголия
+  Ганьсу:
+    id: 2382
+    country_id: 2374
+    name: Ганьсу
+  Гуандон:
+    id: 4691804
+    country_id: 2374
+    name: Гуандон
+  Гуанси:
+    id: 2386
+    country_id: 2374
+    name: Гуанси
+  Ляонин:
+    id: 2388
+    country_id: 2374
+    name: Ляонин
+  Пекин:
+    id: 3331120
+    country_id: 2374
+    name: Пекин
+  Сычуань:
+    id: 2393
+    country_id: 2374
+    name: Сычуань
+  Фуцзянь:
+    id: 2396
+    country_id: 2374
+    name: Фуцзянь
+  Хубэй:
+    id: 2398
+    country_id: 2374
+    name: Хубэй
+  Хунань:
+    id: 2401
+    country_id: 2374
+    name: Хунань
+  Хэбэй:
+    id: 2404
+    country_id: 2374
+    name: Хэбэй
+  Хэйлунцзян:
+    id: 2406
+    country_id: 2374
+    name: Хэйлунцзян
+  Хэнань:
+    id: 2408
+    country_id: 2374
+    name: Хэнань
+  Цзилинь:
+    id: 2411
+    country_id: 2374
+    name: Цзилинь
+  Цзянси:
+    id: 2414
+    country_id: 2374
+    name: Цзянси
+  Цзянсу:
+    id: 2416
+    country_id: 2374
+    name: Цзянсу
+  Чжэцзян:
+    id: 2419
+    country_id: 2374
+    name: Чжэцзян
+  Шанхай:
+    id: 2424
+    country_id: 2374
+    name: Шанхай
+  Шаньдун:
+    id: 2426
+    country_id: 2374
+    name: Шаньдун
+  Шаньси:
+    id: 2428
+    country_id: 2374
+    name: Шаньси
+  Korea:
+    id: 6453632
+    country_id: 582040
+    name: Korea
+  Южная Корея:
+    id: 11566007
+    country_id: 582040
+    name: Южная Корея
+  Alajuela:
+    id: 2431
+    country_id: 2430
+    name: Alajuela
+  Guanacaste:
+    id: 2433
+    country_id: 2430
+    name: Guanacaste
+  Heredia:
+    id: 2435
+    country_id: 2430
+    name: Heredia
+  Limon:
+    id: 2437
+    country_id: 2430
+    name: Limon
+  Puntarenas:
+    id: 2439
+    country_id: 2430
+    name: Puntarenas
+  San Jose:
+    id: 2441
+    country_id: 2430
+    name: San Jose
+  Гавана:
+    id: 2483267
+    country_id: 582077
+    name: Гавана
+  al-Jahra:
+    id: 2444
+    country_id: 2443
+    name: al-Jahra
+  al-Kuwayt:
+    id: 2446
+    country_id: 2443
+    name: al-Kuwayt
+  Латвия:
+    id: 2449
+    country_id: 2448
+    name: Латвия
+  Бейрут:
+    id: 2505921
+    country_id: 2505884
+    name: Бейрут
+  Бейрут:
+    id: 2494137
+    country_id: 582060
+    name: Бейрут
+  Tarabulus:
+    id: 2510
+    country_id: 2509
+    name: Tarabulus
+  Бенгази:
+    id: 2512
+    country_id: 2509
+    name: Бенгази
+  Литва:
+    id: 2515
+    country_id: 2514
+    name: Литва
+  Люксембург:
+    id: 2615
+    country_id: 2614
+    name: Люксембург
+  Скопье:
+    id: 3663676
+    country_id: 582041
+    name: Скопье
+  Малайзия:
+    id: 277564
+    country_id: 277563
+    name: Малайзия
+  Мальта:
+    id: 6460443
+    country_id: 582043
+    name: Мальта
+  Агуаскальентес:
+    id: 2618
+    country_id: 2617
+    name: Агуаскальентес
+  Веракрус:
+    id: 2620
+    country_id: 2617
+    name: Веракрус
+  Герреро:
+    id: 2639
+    country_id: 2617
+    name: Герреро
+  Гуанахуато:
+    id: 2646
+    country_id: 2617
+    name: Гуанахуато
+  Дуранго:
+    id: 2656
+    country_id: 2617
+    name: Дуранго
+  Идальго:
+    id: 2661
+    country_id: 2617
+    name: Идальго
+  Кампече:
+    id: 2666
+    country_id: 2617
+    name: Кампече
+  Керетаро:
+    id: 2670
+    country_id: 2617
+    name: Керетаро
+  Керетаро:
+    id: 2668
+    country_id: 2617
+    name: Керетаро
+  Коауила:
+    id: 2672
+    country_id: 2617
+    name: Коауила
+  Колима:
+    id: 2679
+    country_id: 2617
+    name: Колима
+  Мехико:
+    id: 2683
+    country_id: 2617
+    name: Мехико
+  Мичоакан:
+    id: 2690
+    country_id: 2617
+    name: Мичоакан
+  Морелос:
+    id: 2700
+    country_id: 2617
+    name: Морелос
+  Наярит:
+    id: 2704
+    country_id: 2617
+    name: Наярит
+  Нижняя Калифорния:
+    id: 2709
+    country_id: 2617
+    name: Нижняя Калифорния
+  Нуэво-Леон:
+    id: 2713
+    country_id: 2617
+    name: Нуэво-Леон
+  Оахака:
+    id: 2717
+    country_id: 2617
+    name: Оахака
+  Пуэбла:
+    id: 2725
+    country_id: 2617
+    name: Пуэбла
+  Сакатекас:
+    id: 2730
+    country_id: 2617
+    name: Сакатекас
+  Сан-Луис-Потоси:
+    id: 2735
+    country_id: 2617
+    name: Сан-Луис-Потоси
+  Синалоа:
+    id: 2741
+    country_id: 2617
+    name: Синалоа
+  Сонора:
+    id: 2746
+    country_id: 2617
+    name: Сонора
+  Табаско:
+    id: 2755
+    country_id: 2617
+    name: Табаско
+  Тамаулипас:
+    id: 2759
+    country_id: 2617
+    name: Тамаулипас
+  Федеральный округ:
+    id: 2766
+    country_id: 2617
+    name: Федеральный округ
+  Халиско:
+    id: 2768
+    country_id: 2617
+    name: Халиско
+  Чиуауа:
+    id: 2778
+    country_id: 2617
+    name: Чиуауа
+  Чьяпас:
+    id: 2780
+    country_id: 2617
+    name: Чьяпас
+  Юкатан:
+    id: 2786
+    country_id: 2617
+    name: Юкатан
+  Мозамбик:
+    id: 6128697
+    country_id: 582082
+    name: Мозамбик
+  Молдова:
+    id: 2789
+    country_id: 2788
+    name: Молдова
+  Монако:
+    id: 2834
+    country_id: 2833
+    name: Монако
+  Улан-батор:
+    id: 2687732
+    country_id: 2687701
+    name: Улан-батор
+  Морокко:
+    id: 4042477
+    country_id: 582065
+    name: Морокко
+  Танжер:
+    id: 4119771
+    country_id: 582065
+    name: Танжер
+  Нидерланды:
+    id: 277552
+    country_id: 277551
+    name: Нидерланды
+  Auckland:
+    id: 2838
+    country_id: 2837
+    name: Auckland
+  Bay of Plenty:
+    id: 2841
+    country_id: 2837
+    name: Bay of Plenty
+  Canterbury:
+    id: 2844
+    country_id: 2837
+    name: Canterbury
+  Gisborne:
+    id: 2847
+    country_id: 2837
+    name: Gisborne
+  Hawke`s Bay:
+    id: 2849
+    country_id: 2837
+    name: Hawke`s Bay
+  Manawatu-Wanganui:
+    id: 2852
+    country_id: 2837
+    name: Manawatu-Wanganui
+  Marlborough:
+    id: 2855
+    country_id: 2837
+    name: Marlborough
+  Nelson:
+    id: 2857
+    country_id: 2837
+    name: Nelson
+  Northland:
+    id: 2859
+    country_id: 2837
+    name: Northland
+  Otago:
+    id: 2861
+    country_id: 2837
+    name: Otago
+  Southland:
+    id: 2863
+    country_id: 2837
+    name: Southland
+  Taranaki:
+    id: 2866
+    country_id: 2837
+    name: Taranaki
+  Tasman:
+    id: 2869
+    country_id: 2837
+    name: Tasman
+  Waikato:
+    id: 2871
+    country_id: 2837
+    name: Waikato
+  Wellington:
+    id: 2874
+    country_id: 2837
+    name: Wellington
+  West Coast:
+    id: 2878
+    country_id: 2837
+    name: West Coast
+  Бускеруд:
+    id: 2881
+    country_id: 2880
+    name: Бускеруд
+  Вестагдер:
+    id: 2883
+    country_id: 2880
+    name: Вестагдер
+  Нордланд:
+    id: 1924623
+    country_id: 2880
+    name: Нордланд
+  Нурлан:
+    id: 2885
+    country_id: 2880
+    name: Нурлан
+  Осло:
+    id: 2887
+    country_id: 2880
+    name: Осло
+  Ромсдал:
+    id: 2577870
+    country_id: 2880
+    name: Ромсдал
+  Ругаланн:
+    id: 2889
+    country_id: 2880
+    name: Ругаланн
+  Сёр-Трённелаг:
+    id: 2891
+    country_id: 2880
+    name: Сёр-Трённелаг
+  Телемарк:
+    id: 2893
+    country_id: 2880
+    name: Телемарк
+  Хуралан:
+    id: 2895
+    country_id: 2880
+    name: Хуралан
+  Дубаи:
+    id: 2316780
+    country_id: 582051
+    name: Дубаи
+  Остров Мэн:
+    id: 1930798
+    country_id: 582105
+    name: Остров Мэн
+  Пакистан:
+    id: 7593366
+    country_id: 582044
+    name: Пакистан
+  Перу:
+    id: 5556213
+    country_id: 582046
+    name: Перу
+  Dolnoslaskie:
+    id: 2898
+    country_id: 2897
+    name: Dolnoslaskie
+  Kujawsko-Pomorskie:
+    id: 2919
+    country_id: 2897
+    name: Kujawsko-Pomorskie
+  Lubuskie:
+    id: 2929
+    country_id: 2897
+    name: Lubuskie
+  Malopolskie:
+    id: 2937
+    country_id: 2897
+    name: Malopolskie
+  Mazowieckie:
+    id: 2958
+    country_id: 2897
+    name: Mazowieckie
+  Podkarpackie:
+    id: 2983
+    country_id: 2897
+    name: Podkarpackie
+  Podlaskie:
+    id: 2994
+    country_id: 2897
+    name: Podlaskie
+  Pomorskie:
+    id: 3003
+    country_id: 2897
+    name: Pomorskie
+  Slaskie:
+    id: 3018
+    country_id: 2897
+    name: Slaskie
+  Swietokrzyskie:
+    id: 3049
+    country_id: 2897
+    name: Swietokrzyskie
+  Warminsko-Mazurskie:
+    id: 3056
+    country_id: 2897
+    name: Warminsko-Mazurskie
+  Wielkopolskie:
+    id: 3068
+    country_id: 2897
+    name: Wielkopolskie
+  Zachodnio-Pomorskie:
+    id: 3090
+    country_id: 2897
+    name: Zachodnio-Pomorskie
+  Лодзинское:
+    id: 3101
+    country_id: 2897
+    name: Лодзинское
+  Люблинское:
+    id: 3118
+    country_id: 2897
+    name: Люблинское
+  Опольское:
+    id: 3133
+    country_id: 2897
+    name: Опольское
+  Польша:
+    id: 277664
+    country_id: 2897
+    name: Польша
+  Centro:
+    id: 3142
+    country_id: 3141
+    name: Centro
+  O-ва Мадейра:
+    id: 3144
+    country_id: 3141
+    name: O-ва Мадейра
+  Лисабон:
+    id: 3146
+    country_id: 3141
+    name: Лисабон
+  Орта:
+    id: 3150
+    country_id: 3141
+    name: Орта
+  Фаро:
+    id: 2284951
+    country_id: 3141
+    name: Фаро
+  Saint-Denis:
+    id: 3157
+    country_id: 3156
+    name: Saint-Denis
+  Румыния:
+    id: 277556
+    country_id: 277555
+    name: Румыния
+  Айдахо:
+    id: 5682
+    country_id: 5681
+    name: Айдахо
+  Айова:
+    id: 5694
+    country_id: 5681
+    name: Айова
+  Алабама:
+    id: 5752
+    country_id: 5681
+    name: Алабама
+  Аляска:
+    id: 5924
+    country_id: 5681
+    name: Аляска
+  Аризона:
+    id: 5927
+    country_id: 5681
+    name: Аризона
+  Арканзас:
+    id: 5983
+    country_id: 5681
+    name: Арканзас
+  Вайоминг:
+    id: 6098
+    country_id: 5681
+    name: Вайоминг
+  Вашингтон:
+    id: 6103
+    country_id: 5681
+    name: Вашингтон
+  Вермонт:
+    id: 6167
+    country_id: 5681
+    name: Вермонт
+  Виргиния:
+    id: 6176
+    country_id: 5681
+    name: Виргиния
+  Висконсин:
+    id: 6242
+    country_id: 5681
+    name: Висконсин
+  Гаваи:
+    id: 6266
+    country_id: 5681
+    name: Гаваи
+  Делавар:
+    id: 6280
+    country_id: 5681
+    name: Делавар
+  Джорджия:
+    id: 6291
+    country_id: 5681
+    name: Джорджия
+  Западная Виргиния:
+    id: 6352
+    country_id: 5681
+    name: Западная Виргиния
+  Иллинойс:
+    id: 6367
+    country_id: 5681
+    name: Иллинойс
+  Индиана:
+    id: 6520
+    country_id: 5681
+    name: Индиана
+  Калифорния:
+    id: 6591
+    country_id: 5681
+    name: Калифорния
+  Канзас:
+    id: 6864
+    country_id: 5681
+    name: Канзас
+  Кентукки:
+    id: 6917
+    country_id: 5681
+    name: Кентукки
+  Колорадо:
+    id: 6973
+    country_id: 5681
+    name: Колорадо
+  Коннектикут:
+    id: 7015
+    country_id: 5681
+    name: Коннектикут
+  Луизиана:
+    id: 7055
+    country_id: 5681
+    name: Луизиана
+  Массачусетс:
+    id: 7120
+    country_id: 5681
+    name: Массачусетс
+  Миннесота:
+    id: 7228
+    country_id: 5681
+    name: Миннесота
+  Миссисипи:
+    id: 7288
+    country_id: 5681
+    name: Миссисипи
+  Миссури:
+    id: 7411
+    country_id: 5681
+    name: Миссури
+  Мичиган:
+    id: 7493
+    country_id: 5681
+    name: Мичиган
+  Монтана:
+    id: 7598
+    country_id: 5681
+    name: Монтана
+  Мэн:
+    id: 7613
+    country_id: 5681
+    name: Мэн
+  Мэриленд:
+    id: 7641
+    country_id: 5681
+    name: Мэриленд
+  Небраска:
+    id: 7691
+    country_id: 5681
+    name: Небраска
+  Невада:
+    id: 7714
+    country_id: 5681
+    name: Невада
+  Нью-Гэмпшир:
+    id: 7733
+    country_id: 5681
+    name: Нью-Гэмпшир
+  Нью-Джерси:
+    id: 7744
+    country_id: 5681
+    name: Нью-Джерси
+  Нью-Йорк:
+    id: 7859
+    country_id: 5681
+    name: Нью-Йорк
+  Нью-Мексико:
+    id: 8089
+    country_id: 5681
+    name: Нью-Мексико
+  Огайо:
+    id: 8145
+    country_id: 5681
+    name: Огайо
+  Оклахома:
+    id: 8439
+    country_id: 5681
+    name: Оклахома
+  Орегон:
+    id: 8483
+    country_id: 5681
+    name: Орегон
+  Пенсильвания:
+    id: 8516
+    country_id: 5681
+    name: Пенсильвания
+  Род-Айленд:
+    id: 8751
+    country_id: 5681
+    name: Род-Айленд
+  США:
+    id: 277672
+    country_id: 5681
+    name: США
+  Северная Дакота:
+    id: 8760
+    country_id: 5681
+    name: Северная Дакота
+  Северная Каролина:
+    id: 8768
+    country_id: 5681
+    name: Северная Каролина
+  Теннесси:
+    id: 8856
+    country_id: 5681
+    name: Теннесси
+  Техас:
+    id: 9047
+    country_id: 5681
+    name: Техас
+  Флорида:
+    id: 9185
+    country_id: 5681
+    name: Флорида
+  Южная Дакота:
+    id: 9477
+    country_id: 5681
+    name: Южная Дакота
+  Южная Каролина:
+    id: 9489
+    country_id: 5681
+    name: Южная Каролина
+  Юта:
+    id: 9515
+    country_id: 5681
+    name: Юта
+  окр.Колумбия:
+    id: 8479
+    country_id: 5681
+    name: окр.Колумбия
+  Ahuachapan:
+    id: 5648
+    country_id: 5647
+    name: Ahuachapan
+  Cuscatlan:
+    id: 5650
+    country_id: 5647
+    name: Cuscatlan
+  La Libertad:
+    id: 5652
+    country_id: 5647
+    name: La Libertad
+  La Paz:
+    id: 5654
+    country_id: 5647
+    name: La Paz
+  La Union:
+    id: 5656
+    country_id: 5647
+    name: La Union
+  San Miguel:
+    id: 5658
+    country_id: 5647
+    name: San Miguel
+  San Salvador:
+    id: 5660
+    country_id: 5647
+    name: San Salvador
+  Santa Ana:
+    id: 5662
+    country_id: 5647
+    name: Santa Ana
+  Sonsonate:
+    id: 5664
+    country_id: 5647
+    name: Sonsonate
+  Сингапур:
+    id: 277566
+    country_id: 277565
+    name: Сингапур
+  Дамаск:
+    id: 1923301
+    country_id: 582067
+    name: Дамаск
+  Trnavsky:
+    id: 5667
+    country_id: 5666
+    name: Trnavsky
+  Братислава:
+    id: 5669
+    country_id: 5666
+    name: Братислава
+  Жилина:
+    id: 5671
+    country_id: 5666
+    name: Жилина
+  Osrednjeslovenska:
+    id: 5674
+    country_id: 5673
+    name: Osrednjeslovenska
+  Podravska:
+    id: 5676
+    country_id: 5673
+    name: Podravska
+  Словения:
+    id: 277671
+    country_id: 5673
+    name: Словения
+  Paramaribo:
+    id: 5679
+    country_id: 5678
+    name: Paramaribo
+  Горно-Бадахшанская обл.:
+    id: 9576
+    country_id: 9575
+    name: Горно-Бадахшанская обл.
+  Кулябская обл.:
+    id: 9589
+    country_id: 9575
+    name: Кулябская обл.
+  Курган-Тюбинская обл.:
+    id: 9596
+    country_id: 9575
+    name: Курган-Тюбинская обл.
+  Согдийская обл.:
+    id: 9605
+    country_id: 9575
+    name: Согдийская обл.
+  Таджикистан:
+    id: 9627
+    country_id: 9575
+    name: Таджикистан
+  Тайвань:
+    id: 277568
+    country_id: 277567
+    name: Тайвань
+  Тайланд:
+    id: 6128546
+    country_id: 582050
+    name: Тайланд
+  Tunisia:
+    id: 5640862
+    country_id: 582090
+    name: Tunisia
+  Ашхабадская обл.:
+    id: 9639
+    country_id: 9638
+    name: Ашхабадская обл.
+  Красноводская обл.:
+    id: 9653
+    country_id: 9638
+    name: Красноводская обл.
+  Марыйская обл.:
+    id: 9670
+    country_id: 9638
+    name: Марыйская обл.
+  Ташаузская обл.:
+    id: 9682
+    country_id: 9638
+    name: Ташаузская обл.
+  Чарджоуская обл.:
+    id: 9685
+    country_id: 9638
+    name: Чарджоуская обл.
+  Туркмения:
+    id: 277570
+    country_id: 277569
+    name: Туркмения
+  Grand Turk:
+    id: 9702
+    country_id: 9701
+    name: Grand Turk
+  Bartin:
+    id: 9706
+    country_id: 9705
+    name: Bartin
+  Bayburt:
+    id: 9708
+    country_id: 9705
+    name: Bayburt
+  Karabuk:
+    id: 9710
+    country_id: 9705
+    name: Karabuk
+  Адана:
+    id: 9712
+    country_id: 9705
+    name: Адана
+  Айдын:
+    id: 9714
+    country_id: 9705
+    name: Айдын
+  Амасья:
+    id: 9716
+    country_id: 9705
+    name: Амасья
+  Анкара:
+    id: 9718
+    country_id: 9705
+    name: Анкара
+  Анталья:
+    id: 9720
+    country_id: 9705
+    name: Анталья
+  Артвин:
+    id: 9722
+    country_id: 9705
+    name: Артвин
+  Афьон:
+    id: 9724
+    country_id: 9705
+    name: Афьон
+  Балыкесир:
+    id: 9726
+    country_id: 9705
+    name: Балыкесир
+  Биледжик:
+    id: 9728
+    country_id: 9705
+    name: Биледжик
+  Бурса:
+    id: 9730
+    country_id: 9705
+    name: Бурса
+  Газиантеп:
+    id: 9732
+    country_id: 9705
+    name: Газиантеп
+  Денизли:
+    id: 9734
+    country_id: 9705
+    name: Денизли
+  Измир:
+    id: 9736
+    country_id: 9705
+    name: Измир
+  Испарта:
+    id: 9738
+    country_id: 9705
+    name: Испарта
+  Ичель:
+    id: 9740
+    country_id: 9705
+    name: Ичель
+  Кайсери:
+    id: 9742
+    country_id: 9705
+    name: Кайсери
+  Карс:
+    id: 9744
+    country_id: 9705
+    name: Карс
+  Коджаэли:
+    id: 9746
+    country_id: 9705
+    name: Коджаэли
+  Конья:
+    id: 9749
+    country_id: 9705
+    name: Конья
+  Кыркларели:
+    id: 9751
+    country_id: 9705
+    name: Кыркларели
+  Кютахья:
+    id: 9753
+    country_id: 9705
+    name: Кютахья
+  Малатья:
+    id: 9755
+    country_id: 9705
+    name: Малатья
+  Маниса:
+    id: 9757
+    country_id: 9705
+    name: Маниса
+  Сакарья:
+    id: 9759
+    country_id: 9705
+    name: Сакарья
+  Самсун:
+    id: 9761
+    country_id: 9705
+    name: Самсун
+  Сивас:
+    id: 9763
+    country_id: 9705
+    name: Сивас
+  Стамбул:
+    id: 9765
+    country_id: 9705
+    name: Стамбул
+  Трабзон:
+    id: 9767
+    country_id: 9705
+    name: Трабзон
+  Чорум:
+    id: 9770
+    country_id: 9705
+    name: Чорум
+  Эдирне:
+    id: 9772
+    country_id: 9705
+    name: Эдирне
+  Элязыг:
+    id: 9774
+    country_id: 9705
+    name: Элязыг
+  Эрзинджан:
+    id: 9776
+    country_id: 9705
+    name: Эрзинджан
+  Эрзурум:
+    id: 9778
+    country_id: 9705
+    name: Эрзурум
+  Эскишехир:
+    id: 9780
+    country_id: 9705
+    name: Эскишехир
+  Jinja:
+    id: 9783
+    country_id: 9782
+    name: Jinja
+  Kampala:
+    id: 9785
+    country_id: 9782
+    name: Kampala
+  Андижанская обл.:
+    id: 9788
+    country_id: 9787
+    name: Андижанская обл.
+  Бухарская обл.:
+    id: 9796
+    country_id: 9787
+    name: Бухарская обл.
+  Джизакская обл.:
+    id: 9806
+    country_id: 9787
+    name: Джизакская обл.
+  Каракалпакия:
+    id: 9813
+    country_id: 9787
+    name: Каракалпакия
+  Кашкадарьинская обл.:
+    id: 9825
+    country_id: 9787
+    name: Кашкадарьинская обл.
+  Навоийская обл.:
+    id: 9832
+    country_id: 9787
+    name: Навоийская обл.
+  Наманганская обл.:
+    id: 9836
+    country_id: 9787
+    name: Наманганская обл.
+  Самаркандская обл.:
+    id: 9844
+    country_id: 9787
+    name: Самаркандская обл.
+  Сурхандарьинская обл.:
+    id: 9851
+    country_id: 9787
+    name: Сурхандарьинская обл.
+  Сырдарьинская обл.:
+    id: 9859
+    country_id: 9787
+    name: Сырдарьинская обл.
+  Ташкентская обл.:
+    id: 9869
+    country_id: 9787
+    name: Ташкентская обл.
+  Ферганская обл.:
+    id: 9892
+    country_id: 9787
+    name: Ферганская обл.
+  Хорезмская обл.:
+    id: 9905
+    country_id: 9787
+    name: Хорезмская обл.
+  Винницкая обл.:
+    id: 9909
+    country_id: 9908
+    name: Винницкая обл.
+  Волынская обл.:
+    id: 9943
+    country_id: 9908
+    name: Волынская обл.
+  Днепропетровская обл.:
+    id: 9964
+    country_id: 9908
+    name: Днепропетровская обл.
+  Донецкая обл.:
+    id: 10002
+    country_id: 9908
+    name: Донецкая обл.
+  Житомирская обл.:
+    id: 10061
+    country_id: 9908
+    name: Житомирская обл.
+  Закарпатская обл.:
+    id: 10094
+    country_id: 9908
+    name: Закарпатская обл.
+  Запорожская обл.:
+    id: 10111
+    country_id: 9908
+    name: Запорожская обл.
+  Ивано-Франковская обл.:
+    id: 10133
+    country_id: 9908
+    name: Ивано-Франковская обл.
+  Киевская обл.:
+    id: 10165
+    country_id: 9908
+    name: Киевская обл.
+  Кировоградская обл.:
+    id: 10201
+    country_id: 9908
+    name: Кировоградская обл.
+  Крымская обл.:
+    id: 10227
+    country_id: 9908
+    name: Крымская обл.
+  Луганская обл.:
+    id: 10259
+    country_id: 9908
+    name: Луганская обл.
+  Львовская обл.:
+    id: 10318
+    country_id: 9908
+    name: Львовская обл.
+  Николаевская обл.:
+    id: 10354
+    country_id: 9908
+    name: Николаевская обл.
+  Одесская обл.:
+    id: 10373
+    country_id: 9908
+    name: Одесская обл.
+  Полтавская обл.:
+    id: 10407
+    country_id: 9908
+    name: Полтавская обл.
+  Ровенская обл.:
+    id: 10437
+    country_id: 9908
+    name: Ровенская обл.
+  Сумская обл.:
+    id: 10455
+    country_id: 9908
+    name: Сумская обл.
+  Тернопольская обл.:
+    id: 10480
+    country_id: 9908
+    name: Тернопольская обл.
+  Украина:
+    id: 277656
+    country_id: 9908
+    name: Украина
+  Харьковская обл.:
+    id: 10504
+    country_id: 9908
+    name: Харьковская обл.
+  Херсонская обл.:
+    id: 10535
+    country_id: 9908
+    name: Херсонская обл.
+  Хмельницкая обл.:
+    id: 10559
+    country_id: 9908
+    name: Хмельницкая обл.
+  Черкасская обл.:
+    id: 10583
+    country_id: 9908
+    name: Черкасская обл.
+  Черниговская обл.:
+    id: 10607
+    country_id: 9908
+    name: Черниговская обл.
+  Черновицкая обл.:
+    id: 10633
+    country_id: 9908
+    name: Черновицкая обл.
+  Etela-Karjala:
+    id: 10649
+    country_id: 10648
+    name: Etela-Karjala
+  Kouvola:
+    id: 2713529
+    country_id: 10648
+    name: Kouvola
+  Paijat-Hame:
+    id: 10651
+    country_id: 10648
+    name: Paijat-Hame
+  Pohjanmaa:
+    id: 10653
+    country_id: 10648
+    name: Pohjanmaa
+  Pohjois-Karjala:
+    id: 5640357
+    country_id: 10648
+    name: Pohjois-Karjala
+  Pohjois-Pohjanmaa:
+    id: 10655
+    country_id: 10648
+    name: Pohjois-Pohjanmaa
+  Pohjois-Savo:
+    id: 10657
+    country_id: 10648
+    name: Pohjois-Savo
+  Satakunta:
+    id: 10659
+    country_id: 10648
+    name: Satakunta
+  Varsinais-Suomi:
+    id: 10661
+    country_id: 10648
+    name: Varsinais-Suomi
+  Кески-Суоми:
+    id: 10663
+    country_id: 10648
+    name: Кески-Суоми
+  Усима:
+    id: 10665
+    country_id: 10648
+    name: Усима
+  Финляндия:
+    id: 277667
+    country_id: 10648
+    name: Финляндия
+  Cotes-d`Armor:
+    id: 10669
+    country_id: 10668
+    name: Cotes-d`Armor
+  Алье:
+    id: 10671
+    country_id: 10668
+    name: Алье
+  Альпы Верхние:
+    id: 10673
+    country_id: 10668
+    name: Альпы Верхние
+  Альпы Приморские:
+    id: 10675
+    country_id: 10668
+    name: Альпы Приморские
+  Арденны:
+    id: 10679
+    country_id: 10668
+    name: Арденны
+  Бельфор:
+    id: 10681
+    country_id: 10668
+    name: Бельфор
+  Буш-дю-Рон:
+    id: 10683
+    country_id: 10668
+    name: Буш-дю-Рон
+  Валь-д` Уаз:
+    id: 10686
+    country_id: 10668
+    name: Валь-д` Уаз
+  Валь-де-Марн:
+    id: 10688
+    country_id: 10668
+    name: Валь-де-Марн
+  Вар:
+    id: 10699
+    country_id: 10668
+    name: Вар
+  Вогезы:
+    id: 10702
+    country_id: 10668
+    name: Вогезы
+  Воклюз:
+    id: 10704
+    country_id: 10668
+    name: Воклюз
+  Вьенна:
+    id: 10706
+    country_id: 10668
+    name: Вьенна
+  Вьенна Верхняя:
+    id: 10708
+    country_id: 10668
+    name: Вьенна Верхняя
+  Гар:
+    id: 10710
+    country_id: 10668
+    name: Гар
+  Гаронна Верхняя:
+    id: 10712
+    country_id: 10668
+    name: Гаронна Верхняя
+  Дё-Севр:
+    id: 10714
+    country_id: 10668
+    name: Дё-Севр
+  Дром:
+    id: 10716
+    country_id: 10668
+    name: Дром
+  Ду:
+    id: 10719
+    country_id: 10668
+    name: Ду
+  Жиронда:
+    id: 10721
+    country_id: 10668
+    name: Жиронда
+  Ивелин:
+    id: 10723
+    country_id: 10668
+    name: Ивелин
+  Иль и Виден:
+    id: 10725
+    country_id: 10668
+    name: Иль и Виден
+  Коррез:
+    id: 10728
+    country_id: 10668
+    name: Коррез
+  Корсика Верхняя:
+    id: 10730
+    country_id: 10668
+    name: Корсика Верхняя
+  Корсика Южная:
+    id: 10732
+    country_id: 10668
+    name: Корсика Южная
+  Кот-д`Ор:
+    id: 10734
+    country_id: 10668
+    name: Кот-д`Ор
+  Ланды:
+    id: 10736
+    country_id: 10668
+    name: Ланды
+  Ло и Гаронна:
+    id: 10738
+    country_id: 10668
+    name: Ло и Гаронна
+  Лозер:
+    id: 10740
+    country_id: 10668
+    name: Лозер
+  Луар и Шер:
+    id: 10742
+    country_id: 10668
+    name: Луар и Шер
+  Луара:
+    id: 10744
+    country_id: 10668
+    name: Луара
+  Луара Атлантическая:
+    id: 10747
+    country_id: 10668
+    name: Луара Атлантическая
+  Луара Верхняя:
+    id: 10750
+    country_id: 10668
+    name: Луара Верхняя
+  Луаре:
+    id: 10752
+    country_id: 10668
+    name: Луаре
+  Мёрт и Мозель:
+    id: 10762
+    country_id: 10668
+    name: Мёрт и Мозель
+  Майенн:
+    id: 10754
+    country_id: 10668
+    name: Майенн
+  Марна:
+    id: 10756
+    country_id: 10668
+    name: Марна
+  Мен и Луара:
+    id: 10759
+    country_id: 10668
+    name: Мен и Луара
+  Мозель:
+    id: 10764
+    country_id: 10668
+    name: Мозель
+  Морбиан:
+    id: 10766
+    country_id: 10668
+    name: Морбиан
+  Нор:
+    id: 10768
+    country_id: 10668
+    name: Нор
+  Ньевр:
+    id: 10774
+    country_id: 10668
+    name: Ньевр
+  О-де-Сен:
+    id: 10776
+    country_id: 10668
+    name: О-де-Сен
+  Об:
+    id: 10794
+    country_id: 10668
+    name: Об
+  Од:
+    id: 10796
+    country_id: 10668
+    name: Од
+  Орн:
+    id: 10798
+    country_id: 10668
+    name: Орн
+  Па-де-Кале:
+    id: 10800
+    country_id: 10668
+    name: Па-де-Кале
+  Париж:
+    id: 10804
+    country_id: 10668
+    name: Париж
+  Пиренеи Атлантические:
+    id: 10806
+    country_id: 10668
+    name: Пиренеи Атлантические
+  Пиренеи Верхние:
+    id: 10809
+    country_id: 10668
+    name: Пиренеи Верхние
+  Пиренеи Восточные:
+    id: 10811
+    country_id: 10668
+    name: Пиренеи Восточные
+  Рейн Верхний:
+    id: 10813
+    country_id: 10668
+    name: Рейн Верхний
+  Рейн Нижний:
+    id: 10817
+    country_id: 10668
+    name: Рейн Нижний
+  Рона:
+    id: 10819
+    country_id: 10668
+    name: Рона
+  Савойя:
+    id: 10823
+    country_id: 10668
+    name: Савойя
+  Савойя Верхняя:
+    id: 10825
+    country_id: 10668
+    name: Савойя Верхняя
+  Сарта:
+    id: 10827
+    country_id: 10668
+    name: Сарта
+  Сен-Сен-Дени:
+    id: 10829
+    country_id: 10668
+    name: Сен-Сен-Дени
+  Сена Приморская:
+    id: 10841
+    country_id: 10668
+    name: Сена Приморская
+  Сомма:
+    id: 10844
+    country_id: 10668
+    name: Сомма
+  Сона и Луара:
+    id: 10846
+    country_id: 10668
+    name: Сона и Луара
+  Тарн:
+    id: 10849
+    country_id: 10668
+    name: Тарн
+  Уаза:
+    id: 10851
+    country_id: 10668
+    name: Уаза
+  Финистер:
+    id: 10853
+    country_id: 10668
+    name: Финистер
+  Франция:
+    id: 277669
+    country_id: 10668
+    name: Франция
+  Шаранта:
+    id: 10856
+    country_id: 10668
+    name: Шаранта
+  Шаранта Приморская:
+    id: 10858
+    country_id: 10668
+    name: Шаранта Приморская
+  Шер:
+    id: 10860
+    country_id: 10668
+    name: Шер
+  Эна:
+    id: 10862
+    country_id: 10668
+    name: Эна
+  Эндр:
+    id: 10864
+    country_id: 10668
+    name: Эндр
+  Эндр и Луара:
+    id: 10866
+    country_id: 10668
+    name: Эндр и Луара
+  Эр:
+    id: 10868
+    country_id: 10668
+    name: Эр
+  Эро:
+    id: 10870
+    country_id: 10668
+    name: Эро
+  Эссонн:
+    id: 10872
+    country_id: 10668
+    name: Эссонн
+  Хорватия:
+    id: 277554
+    country_id: 277553
+    name: Хорватия
+  Jihochesky:
+    id: 10875
+    country_id: 10874
+    name: Jihochesky
+  Jihomoravsky:
+    id: 10877
+    country_id: 10874
+    name: Jihomoravsky
+  Karlovarsky:
+    id: 10879
+    country_id: 10874
+    name: Karlovarsky
+  Kralovehradecky:
+    id: 10881
+    country_id: 10874
+    name: Kralovehradecky
+  Liberecky:
+    id: 10883
+    country_id: 10874
+    name: Liberecky
+  Moravskoslezsky:
+    id: 10886
+    country_id: 10874
+    name: Moravskoslezsky
+  Olomoucky:
+    id: 10892
+    country_id: 10874
+    name: Olomoucky
+  Stredochesky:
+    id: 10896
+    country_id: 10874
+    name: Stredochesky
+  Ustecky:
+    id: 10898
+    country_id: 10874
+    name: Ustecky
+  Чехия:
+    id: 277670
+    country_id: 10874
+    name: Чехия
+  Сантьяго:
+    id: 2412885
+    country_id: 582031
+    name: Сантьяго
+  Аргау:
+    id: 10905
+    country_id: 10904
+    name: Аргау
+  Базель-Штадт:
+    id: 10908
+    country_id: 10904
+    name: Базель-Штадт
+  Берн:
+    id: 10910
+    country_id: 10904
+    name: Берн
+  Во:
+    id: 10914
+    country_id: 10904
+    name: Во
+  Женева:
+    id: 10916
+    country_id: 10904
+    name: Женева
+  Золотурн:
+    id: 10918
+    country_id: 10904
+    name: Золотурн
+  Люцерн:
+    id: 10920
+    country_id: 10904
+    name: Люцерн
+  Невшатель:
+    id: 10922
+    country_id: 10904
+    name: Невшатель
+  Тичино:
+    id: 10925
+    country_id: 10904
+    name: Тичино
+  Фрибур:
+    id: 10927
+    country_id: 10904
+    name: Фрибур
+  Цюрих:
+    id: 10930
+    country_id: 10904
+    name: Цюрих
+  Швейцария:
+    id: 277666
+    country_id: 10904
+    name: Швейцария
+  Skine:
+    id: 10934
+    country_id: 10933
+    name: Skine
+  Vastra Gotaland:
+    id: 10938
+    country_id: 10933
+    name: Vastra Gotaland
+  Вермланд:
+    id: 10942
+    country_id: 10933
+    name: Вермланд
+  Вестерботтен:
+    id: 10944
+    country_id: 10933
+    name: Вестерботтен
+  Вестернорланд:
+    id: 10946
+    country_id: 10933
+    name: Вестернорланд
+  Вестманланд:
+    id: 10948
+    country_id: 10933
+    name: Вестманланд
+  Евлеборг:
+    id: 10950
+    country_id: 10933
+    name: Евлеборг
+  Емтланд:
+    id: 10952
+    country_id: 10933
+    name: Емтланд
+  Йёнчёпинг:
+    id: 10954
+    country_id: 10933
+    name: Йёнчёпинг
+  Норрботтен:
+    id: 4778004
+    country_id: 10933
+    name: Норрботтен
+  Сёдерманланд:
+    id: 10956
+    country_id: 10933
+    name: Сёдерманланд
+  Стокгольм:
+    id: 10958
+    country_id: 10933
+    name: Стокгольм
+  Упсала:
+    id: 10962
+    country_id: 10933
+    name: Упсала
+  Халланд:
+    id: 10964
+    country_id: 10933
+    name: Халланд
+  Швеция:
+    id: 277665
+    country_id: 10933
+    name: Швеция
+  Эстерйетланд:
+    id: 10966
+    country_id: 10933
+    name: Эстерйетланд
+  Пичинча:
+    id: 7719907
+    country_id: 582064
+    name: Пичинча
+  Эстония:
+    id: 10969
+    country_id: 10968
+    name: Эстония
+  Йоханесбург:
+    id: 3661590
+    country_id: 3661568
+    name: Йоханесбург
+  Воеводина:
+    id: 11003
+    country_id: 11002
+    name: Воеводина
+  Косово:
+    id: 11008
+    country_id: 11002
+    name: Косово
+  Сербия:
+    id: 11010
+    country_id: 11002
+    name: Сербия
+  Югославия:
+    id: 277658
+    country_id: 11002
+    name: Югославия
+  Cheju:
+    id: 11015
+    country_id: 11014
+    name: Cheju
+  Chollabuk:
+    id: 11017
+    country_id: 11014
+    name: Chollabuk
+  Chollanam:
+    id: 11020
+    country_id: 11014
+    name: Chollanam
+  Chungcheongbuk:
+    id: 11024
+    country_id: 11014
+    name: Chungcheongbuk
+  Chungcheongnam:
+    id: 11027
+    country_id: 11014
+    name: Chungcheongnam
+  Incheon:
+    id: 11029
+    country_id: 11014
+    name: Incheon
+  Kangweon:
+    id: 11031
+    country_id: 11014
+    name: Kangweon
+  Kwangju:
+    id: 11035
+    country_id: 11014
+    name: Kwangju
+  Kyeonggi:
+    id: 11037
+    country_id: 11014
+    name: Kyeonggi
+  Kyeongsangbuk:
+    id: 11040
+    country_id: 11014
+    name: Kyeongsangbuk
+  Kyeongsangnam:
+    id: 11045
+    country_id: 11014
+    name: Kyeongsangnam
+  Pusan:
+    id: 11050
+    country_id: 11014
+    name: Pusan
+  Seoul:
+    id: 11052
+    country_id: 11014
+    name: Seoul
+  Taegu:
+    id: 11054
+    country_id: 11014
+    name: Taegu
+  Taejeon:
+    id: 11056
+    country_id: 11014
+    name: Taejeon
+  Ulsan:
+    id: 11058
+    country_id: 11014
+    name: Ulsan
+  Ямайка:
+    id: 15789405
+    country_id: 582106
+    name: Ямайка
+  Айти:
+    id: 11061
+    country_id: 11060
+    name: Айти
+  Акита:
+    id: 11068
+    country_id: 11060
+    name: Акита
+  Аомори:
+    id: 11074
+    country_id: 11060
+    name: Аомори
+  Вакаяма:
+    id: 11080
+    country_id: 11060
+    name: Вакаяма
+  Гифу:
+    id: 11083
+    country_id: 11060
+    name: Гифу
+  Гумма:
+    id: 11088
+    country_id: 11060
+    name: Гумма
+  Ибараки:
+    id: 11094
+    country_id: 11060
+    name: Ибараки
+  Ивате:
+    id: 11102
+    country_id: 11060
+    name: Ивате
+  Исикава:
+    id: 11108
+    country_id: 11060
+    name: Исикава
+  Кагава:
+    id: 11113
+    country_id: 11060
+    name: Кагава
+  Кагосима:
+    id: 11116
+    country_id: 11060
+    name: Кагосима
+  Канагава:
+    id: 11121
+    country_id: 11060
+    name: Канагава
+  Киото:
+    id: 11133
+    country_id: 11060
+    name: Киото
+  Коти:
+    id: 11139
+    country_id: 11060
+    name: Коти
+  Кумамото:
+    id: 11142
+    country_id: 11060
+    name: Кумамото
+  Миэ:
+    id: 11146
+    country_id: 11060
+    name: Миэ
+  Мияги:
+    id: 11151
+    country_id: 11060
+    name: Мияги
+  Миядзаки:
+    id: 11155
+    country_id: 11060
+    name: Миядзаки
+  Нагано:
+    id: 11162
+    country_id: 11060
+    name: Нагано
+  Нагасаки:
+    id: 11168
+    country_id: 11060
+    name: Нагасаки
+  Нара:
+    id: 11173
+    country_id: 11060
+    name: Нара
+  Ниигата:
+    id: 11178
+    country_id: 11060
+    name: Ниигата
+  Окаяма:
+    id: 11185
+    country_id: 11060
+    name: Окаяма
+  Окинава:
+    id: 11189
+    country_id: 11060
+    name: Окинава
+  Осака:
+    id: 11192
+    country_id: 11060
+    name: Осака
+  Сага:
+    id: 11209
+    country_id: 11060
+    name: Сага
+  Сайтама:
+    id: 11215
+    country_id: 11060
+    name: Сайтама
+  Сига:
+    id: 11227
+    country_id: 11060
+    name: Сига
+  Сидзуока:
+    id: 11230
+    country_id: 11060
+    name: Сидзуока
+  Симане:
+    id: 11233
+    country_id: 11060
+    name: Симане
+  Тиба:
+    id: 11248
+    country_id: 11060
+    name: Тиба
+  Токио:
+    id: 11261
+    country_id: 11060
+    name: Токио
+  Токусима:
+    id: 11270
+    country_id: 11060
+    name: Токусима
+  Тотиги:
+    id: 11273
+    country_id: 11060
+    name: Тотиги
+  Тоттори:
+    id: 11279
+    country_id: 11060
+    name: Тоттори
+  Тояма:
+    id: 11283
+    country_id: 11060
+    name: Тояма
+  Фукуи:
+    id: 11289
+    country_id: 11060
+    name: Фукуи
+  Фукуока:
+    id: 11295
+    country_id: 11060
+    name: Фукуока
+  Фукусима:
+    id: 11304
+    country_id: 11060
+    name: Фукусима
+  Хиросима:
+    id: 11307
+    country_id: 11060
+    name: Хиросима
+  Хоккайдо:
+    id: 11312
+    country_id: 11060
+    name: Хоккайдо
+  Хпого:
+    id: 11330
+    country_id: 11060
+    name: Хпого
+  Эхиме:
+    id: 11340
+    country_id: 11060
+    name: Эхиме
+  Ямагата:
+    id: 11346
+    country_id: 11060
+    name: Ямагата
+  Ямагути:
+    id: 11354
+    country_id: 11060
+    name: Ямагути
+  Яманаси:
+    id: 11363
+    country_id: 11060
+    name: Яманаси

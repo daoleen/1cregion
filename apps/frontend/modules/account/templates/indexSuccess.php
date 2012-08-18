@@ -19,7 +19,7 @@
         <h3><?php echo $user; ?></h3>
         <img src="<?php echo ($avatar = $user->Account->getAvatar()) ? $avatar : sfConfig::get('app_default_avatar_path'); ?>" class="avatar" alt="avatar" align="left" />
         <span class="years_old"><?php echo  intval((time() - strtotime($user->Account->getBirthday()))/31536000); ?> года</span><br />
-        <span class="city"><?php echo $user->Account->Country; ?></span><br />
+        <span class="city"><?php echo $user->Account->Country; ?>, <?php echo $user->Account->Region; ?></span><br />
         <span class="city"><?php echo $user->Account->City; ?></span><br />
         <a class="private_message" href="#">Приватное сообщение</a>
     </div>

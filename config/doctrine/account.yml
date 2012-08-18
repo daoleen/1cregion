@@ -2,6 +2,7 @@ Account:
   columns:
     birthday: { type: date, default: '1994-01-01' }
     country_id: { type: integer }
+    region_id: { type: integer }
     city_id: { type: integer }
     visitors: { type: integer, notnull: true, default: 0 }
     email: { type: string(100) }
@@ -12,7 +13,7 @@ Account:
     avatar: { type: string(100) }
   indexes:
     city_idx:
-      fields: [country_id, city_id]
+      fields: [country_id, city_id, region_id]
   relations:
     Categories:
       class: Category
@@ -23,6 +24,11 @@ Account:
     Country:
       class: Country
       local: country_id
+      foreign: id
+      foreignAlias: Account
+    Region:
+      class: Region
+      local: region_id
       foreign: id
       foreignAlias: Account
     City:
