@@ -44,6 +44,7 @@ class messagesActions extends sfActions
       $listener = $this->getUser()->getGuardUser();
       
       $this->messages = Messages::getUserMessages($listener->getId(), $this->sender->getId());
+      Messages::setUserMessagesToRead($listener->getId(), $this->sender->getId());
   }
   
   protected function processForm(sfWebRequest $request, sfForm $form)

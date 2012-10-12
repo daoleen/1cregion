@@ -55,4 +55,15 @@ class Messages extends BaseMessages
                 ->orderBy('m.created_at asc');
         return $q->execute();
     }
+    
+    
+    public static function setUserMessagesToRead($to_id, $from_id)
+    {
+        $q = MessagesTable::getInstance()->createQuery('m')
+                ->update()
+                ->set('m.is_read', true)
+                ->where('m.to_id = ?', $to_id)
+                ->andWhere('m.from_id = ?', $from_id);
+        return $q->execute();
+    }
 }

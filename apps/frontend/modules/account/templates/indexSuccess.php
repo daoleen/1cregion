@@ -21,7 +21,7 @@
         <span class="years_old"><?php echo  intval((time() - strtotime($user->Account->getBirthday()))/31536000); ?> года</span><br />
         <span class="city"><?php echo $user->Account->Country; ?>, <?php echo $user->Account->Region; ?></span><br />
         <span class="city"><?php echo $user->Account->City; ?></span><br />
-        <a class="private_message" href="<?php echo url_for('messages_new', $user); ?>">Приватное сообщение</a>
+        <a class="private_message" href="<?php echo url_for('messages_show', $user); ?>">Приватное сообщение</a>
     </div>
     <div id="main_info">
         <h3>Основная информация</h3>
