@@ -1,6 +1,37 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+# Портфолио
+portfolio:
+  url:  /account/:username/portfolio
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: portfolio, action: index }
+  
+portfolio_new:
+  url:  /account/:username/portfolio/add
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: portfolio, action: new }
+  
+portfolio_edit:
+  url:  /account/:username/portfolio/edit/work/:id
+  class: sfDoctrineRoute
+  options: { model: PortfolioWork, type: object }
+  param: { module: portfolio, action: edit }
+  
+portfolio_show:
+  url:  /account/:username/portfolio/show/work/:id
+  class: sfDoctrineRoute
+  options: { model: PortfolioWork, type: object }
+  param: { module: portfolio, action: show }
+  
+portfolio_delete:
+  url:  /account/:username/portfolio/delete/work/:id
+  class: sfDoctrineRoute
+  options: { model: PortfolioWork, type: object }
+  param: { module: portfolio, action: delete }
+
 # Сообщения
 messages_new:
   url: /account/messages/:username

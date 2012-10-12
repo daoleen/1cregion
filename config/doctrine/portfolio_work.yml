@@ -1,0 +1,32 @@
+PortfolioWork:
+  actAs: { Timestampable: ~ }
+  columns:
+    user_id: { type: integer, notnull: true }
+    name: { type: string(255), notnull: true }
+    description: { type: string(4000), notnull: true }
+    category_id: { type: integer, notnull: true }
+    image: { type: string(255) }
+    link: { type: string(255) }
+    cost: { type: float, length: 8 }
+    cost_currency_id: { type: integer }
+    term: { type: integer }
+    term_options: { type: enum, values: ['Час','День', 'Неделя', 'Месяц', 'Год'], notnull: true, default: 'День' }
+    file_src: { type: string(255) }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      foreignAlias: PortfolioWorks
+    Category:
+      class: Category
+      local: category_id
+      foreign: id
+      foreignAlias: PortfolioWorks
+    CostCurrency:
+      class: Currency
+      local: cost_currency_id
+      foreign: id
+      foreignAlias: PortfolioWorks
+  options:
+    charset: utf8
