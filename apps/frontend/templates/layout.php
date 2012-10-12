@@ -42,7 +42,14 @@
             
             <div id="menu">
             	<div id="menu_block"><a href="<?php echo url_for('@homepage'); ?>">Главная</a></div>
-                <div id="menu_block"><a href="#">Профиль</a></div>
+                
+                <?php if($sf_user->isAuthenticated()): ?>
+                    <div id="menu_block"><a href="<?php echo url_for('account', $sf_user->getGuardUser()); ?>">Профиль</a></div>
+                <?php else: ?>
+                    <div id="menu_block"><a href="<?php echo url_for('@sf_guard_signin'); ?>">Вход</a></div>
+                    <div id="menu_block"><a href="<?php echo url_for('@sf_guard_register'); ?>">Регистрация</a></div>
+                <?php endif; ?>
+                    
                 <div id="menu_block"><a href="<?php echo url_for('@project'); ?>">Проекты</a></div>
                 <!--
                 <div id="menu_block"><a href="#">Магазин</a></div>
