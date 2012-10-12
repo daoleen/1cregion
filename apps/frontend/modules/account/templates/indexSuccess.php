@@ -44,7 +44,7 @@
             </tr>
             <tr>
                 <td>Портфолио</td>
-                <td>17 TODO</td>
+                <td><a href="<?php echo url_for('portfolio', $user); ?>"><?php echo $user->PortfolioWorks->count(); ?></a></td>
             </tr>
             <tr>
                 <td>Отзывы</td>
