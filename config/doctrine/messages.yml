@@ -1,0 +1,20 @@
+Messages:
+  actAs: { Timestampable: ~ }
+  columns:
+    from_id: { type: integer, notnull: true }
+    to_id: { type: integer, notnull: true }
+    message: { type: string(2000), notnull: true }
+    is_read: { type: boolean, notnull: true, default: false }
+  relations:
+    From:
+      class: sfGuardUser
+      local: from_id
+      foreign: id
+      foreignAlias: Messages
+    To:
+      class: sfGuardUser
+      local: to_id
+      foreign: id
+      foreignAlias: Messages
+  options:
+    charset: utf8

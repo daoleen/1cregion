@@ -14,7 +14,7 @@ class Comment extends BaseComment
 {
     public function save(Doctrine_Connection $conn = null) {
         $this->User = sfContext::getInstance()->getUser()->getGuardUser();
-        parent::save($conn);
+        return parent::save($conn);
     }
     
     /**

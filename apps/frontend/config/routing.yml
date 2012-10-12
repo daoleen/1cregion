@@ -1,6 +1,32 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+# Сообщения
+messages_new:
+  url: /account/messages/:username
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: messages, action: index }
+  
+messages_send:
+  url: /account/messages/send
+  param: { module: messages, action: send }
+  requirements:
+    sf_method: [post]
+    
+messages_contact_list:
+  url:  /account/:username/messages
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: messages, action: contactlist }
+  
+messages_show:
+  # username - sender
+  url:  /account/messages/show/:username
+  class: sfDoctrineRoute
+  options: { model: sfGuardUser, type: object }
+  param: { module: messages, action: show }
+
 
 # Отзывы о пользователе
 feedback:

@@ -5,7 +5,7 @@
 <div id="navigation">
     <ul>
         <li><strong><?php echo $user->getUsername(); ?></strong></li>
-        <li><a href="#">Нет уведомлений</a></li>
+        <li><a href="<?php echo url_for('messages_contact_list', $user); ?>">Нет уведомлений</a></li>
         <li><a href="#">Баланс: 0 руб.</a></li>
         <li><a href="#">Бонусы: <?php echo $user->Bonus->getBonus(); ?></a></li>
         <li>Отзывы: <a href="<?php echo url_for('feedback', $user); ?>"><span class="a_feedback"><?php echo $user->Feedbacks->count(); ?></span></a></li>
@@ -21,7 +21,7 @@
         <span class="years_old"><?php echo  intval((time() - strtotime($user->Account->getBirthday()))/31536000); ?> года</span><br />
         <span class="city"><?php echo $user->Account->Country; ?>, <?php echo $user->Account->Region; ?></span><br />
         <span class="city"><?php echo $user->Account->City; ?></span><br />
-        <a class="private_message" href="#">Приватное сообщение</a>
+        <a class="private_message" href="<?php echo url_for('messages_new', $user); ?>">Приватное сообщение</a>
     </div>
     <div id="main_info">
         <h3>Основная информация</h3>
