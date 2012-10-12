@@ -48,7 +48,7 @@
             </tr>
             <tr>
                 <td>Отзывы</td>
-                <td>124 TODO</td>
+                <td><?php echo $user->Feedbacks->count(); ?></td>
             </tr>
             <tr>
                 <td>Просмотры</td>
