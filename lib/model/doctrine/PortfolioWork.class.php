@@ -26,4 +26,12 @@ class PortfolioWork extends BasePortfolioWork
                 ->where('w.user_id = ?', $user_id);
         return $q->execute();
     }
+    
+    
+    public static function getLastWorks($count) {
+        $q = PortfolioWorkTable::getInstance()->createQuery('w')
+                ->orderBy('w.created_at desc')
+                ->limit($count);
+        return $q->execute();
+    }
 }

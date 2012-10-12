@@ -9,6 +9,8 @@
 </div><!-- #beautiful_about_freelance -->
 <div id="clear"></div>
 
+
+<!-- TODO after some times
 <div id="articles_block">
         <div id="title_section">
         <img src="/images/articles_section.gif" width="168" height="38" />
@@ -40,7 +42,7 @@
                 </td>
             </tr>
         </table>
-    </div><!-- #articles_block_article -->
+    </div>
 
 
     <div id="articles_block_article">
@@ -103,7 +105,8 @@
 
 
     <div id="clear"></div>
-</div><!-- articles_block -->
+</div>
+--><!-- articles_block -->
 
 
 <div id="topworking_block">
@@ -112,6 +115,7 @@
     </div>
 
     <table width="100%" border="0">
+        <!--
         <tr>
                 <td width="28" valign="middle"><img src="/images/working_left.gif" width="28" height="77" /></td>
                 <td width="175" align="center"><img src="/images/userwork.gif" width="165" height="198" /></td>
@@ -119,5 +123,23 @@
                 <td width="175" align="center"><img src="/images/userwork.gif" width="165" height="198" /></td>
                 <td width="26" valign="middle"><img src="/images/working_right.jpg" width="26" height="76" /></td>
         </tr>
+        -->
+
+        <?php foreach($topWorks as $i => $work): ?>
+            <?php if( ($i) % 3 == 0): ?>
+                <tr>
+                    <td width="28" valign="middle"><img src="/images/working_left.gif" width="28" height="77" /></td>
+            <?php endif; ?>
+                <td width="175" align="center">
+                    <a href="<?php echo url_for('portfolio_show', $work); ?>">
+                        <img src="<?php echo $work->getImage(); ?>" width="165" height="198" alt="<?php echo $work->getName(); ?>" />
+                    </a>
+                </td>
+            <?php if( ($i+1) % 3 == 0): ?>
+                    <td width="26" valign="middle"><img src="/images/working_right.jpg" width="26" height="76" /></td>
+                </tr>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        
     </table>                    
 </div><!-- #topworking_block -->

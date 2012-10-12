@@ -17,5 +17,6 @@ class mainActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
+      $this->topWorks = PortfolioWork::getLastWorks(6);
   }
 }
