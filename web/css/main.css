@@ -262,3 +262,9 @@ body #container {
 .text_bold {
 	font-weight: bold;
 }
+
+
+.img_work {
+    width: 165px;
+    height: 200px;
+}

@@ -1,0 +1,122 @@
+/* 
+    Document   : portfolio
+    Created on : 24.10.2012, 10:10:13
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio_title {
+    padding: 0;
+    margin: 20px 20px;
+    color: #494949;
+    font-size: 20px;
+}
+
+#category_works {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0 5px;
+}
+
+#category_works h3 {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 0;
+    text-decoration: underline;
+    color: #ec6326;
+}
+
+#works_line {
+    width: 100%;
+    color: #888;
+    margin: 10px 0;
+}
+
+#work {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+#work .work_name {
+    font-size: 16px;
+    color: #61170d;
+    text-decoration: none;
+}
+#work .work_name:hover {
+    color: #a51d0a;
+}
+
+#work .work_description {
+    margin: 0;
+    padding: 0;
+}
+
+#work .details_link {
+    color: #888;
+}
+#work .details_link:hover {
+    color: #444;
+}
+
+#portfolio_show {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#portfolio_show p {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio_work_name {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ec6326;
+}
+
+.td_work_options {
+    padding: 5px;
+    color: #494949;
+}
+
+.td_work_value {
+    color: #302954;
+}
+
+a.link_work {
+    color: #010f25;
+    text-decoration: underline;
+}
+a.link_work:hover {
+    color: #ec6326;
+}
+
+#portfolio_navigation {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#portfolio_navigation .link_portfolio_nav {
+    margin-left: 5px;
+    margin-right: 15px;
+    color: #ec6326;
+    text-decoration: none;
+}
+#portfolio_navigation .link_portfolio_nav:hover {
+    color: #61170d;
+    text-decoration: underline;
+}
+
+#portfolio_description {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
