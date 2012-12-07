@@ -13,7 +13,8 @@ class portfolioActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $this->user = $this->getRoute()->getObject();
-    $this->portfolio_works = PortfolioWork::getUserWorks($this->user->getId());
+    //$this->portfolio_works = PortfolioWork::getUserWorks($this->user->getId());
+    $this->categories = Doctrine_Query::create()->from('Category c')->execute();
   }
 
   public function executeShow(sfWebRequest $request)
@@ -72,8 +73,7 @@ class portfolioActions extends sfActions
     if ($form->isValid())
     {
       $portfolio_work = $form->save();
-
-      $this->redirect('portfolio/edit?id='.$portfolio_work->getId());
+      $this->redirect('portfolio_show', $portfolio_work);
     }
   }
 }

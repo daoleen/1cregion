@@ -23,7 +23,8 @@ class PortfolioWork extends BasePortfolioWork
     
     public static function getUserWorks($user_id) {
         $q = PortfolioWorkTable::getInstance()->createQuery('w')
-                ->where('w.user_id = ?', $user_id);
+                ->where('w.user_id = ?', $user_id)
+                ->orderBy('w.category_id');
         return $q->execute();
     }
     

@@ -1,0 +1,20 @@
+/* 
+    Document   : portfolio_form
+    Created on : 08.12.2012, 0:56:15
+    Author     : alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#portfolio_work_name {
+    width: 250px;
+}
+#portfolio_work_description {
+    width: 250px;
+}
+#portfolio_work_cost {
+    width: 70px;
+}
+#portfolio_work_term {
+    width: 70px;
+}

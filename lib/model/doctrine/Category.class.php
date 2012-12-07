@@ -12,4 +12,18 @@
  */
 class Category extends BaseCategory
 {
+    public function getUserPortfolioWorks($user_id) {
+        //$works = $this->getPortfolioWorks();
+        /*
+        $works = $this->getTable()->createQuery('c')
+                ->where('c.PortfolioWorks.category_id = ?', $this->getId())
+                ->andWhere('c.PortfolioWorks.user_id = ?', $user_id);
+        return $works->fetchOne();
+         */
+        
+        $q = PortfolioWorkTable::getInstance()->createQuery('p')
+                ->where('p.category_id = ?', $this->getId())
+                ->andWhere('p.user_id = ?', $user_id);
+        return $q->execute();
+    }
 }

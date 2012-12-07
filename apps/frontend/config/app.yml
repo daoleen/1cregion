@@ -14,3 +14,4 @@ all:
     success_signout_url:   @homepage
     
   default_avatar_path:  /images/avatar.gif  # Аватарка по умолчанию
+  default_workimage_path: /images/userwork.gif # Изображение работы портфолио по умолчанию
