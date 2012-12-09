@@ -1,4 +1,8 @@
 <?php use_stylesheet('account.css'); ?>
+<?php if($user == $sf_user->getGuardUser()): ?>
+    <?php use_javascript('ajaxupload.js'); ?>
+    <?php use_javascript('account.js'); ?>
+<?php endif; ?>
 <?php use_helper('Text'); ?>
 
 <img src="/images/title_profile.jpg" class="title_profile" />
@@ -17,7 +21,9 @@
 <div id="left_info">
     <div id="logo_info">
         <h3><?php echo $user; ?></h3>
-        <img src="<?php echo ($avatar = $user->Account->getAvatar()) ? $avatar : sfConfig::get('app_default_avatar_path'); ?>" class="avatar" alt="avatar" align="left" />
+        <div id="avatar">
+            <img id="img_avatar" src="<?php echo ($avatar = $user->Account->getAvatar()) ? sfConfig::get('app_avatar_dir').$avatar : sfConfig::get('app_default_avatar_path'); ?>" class="avatar" alt="avatar" align="left" />
+        </div>
         <span class="years_old"><?php echo  intval((time() - strtotime($user->Account->getBirthday()))/31536000); ?> года</span><br />
         <span class="city"><?php echo $user->Account->Country; ?>, <?php echo $user->Account->Region; ?></span><br />
         <span class="city"><?php echo $user->Account->City; ?></span><br />

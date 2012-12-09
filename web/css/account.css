@@ -58,6 +58,12 @@ img.title_profile {
     height: 81px;
     margin-right: 10px;
 }
+#avatar {
+    width: 81px;
+    height: 81px;
+    margin-right: 10px;
+    float: left;
+}
 
 #left_info #logo_info .years_old {
     color: #333;

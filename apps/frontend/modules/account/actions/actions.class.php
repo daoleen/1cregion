@@ -48,20 +48,4 @@ class accountActions extends sfActions
       
       $this->setTemplate('edit');
   }
-  
-  
-  public function executeAvatar(sfWebRequest $request) {
-      $this->form = new AccountAvatarForm();
-  }
-  
-  public function executeUpdateAvatar(sfWebRequest $request) {
-      $this->form = new AccountAvatarForm();
-      $this->form->bind($request->getParameter($this->form->getName()), $request->getFiles($this->form->getName()));
-      
-      if($this->form->isValid()) {
-          die('success');
-      }
-      
-      $this->setTemplate('avatar');
-  }
 }
