@@ -15,6 +15,7 @@ all:
     
   default_avatar_path:  /images/avatar.gif  # Аватарка по умолчанию
   default_workimage_path: /images/userwork.gif # Изображение работы портфолио по умолчанию
+  userfiles_path:       /uploads/UserFiles/ # Каталог для хранения пользовательских данных
   avatar_dir: /uploads/UserFiles/avatars/
   avatar_width: 81    # Длина изображения аватара для автоизменения при загрузке
   avatar_height: 81   # Ширина изображения аватара для автоизменения при загрузке

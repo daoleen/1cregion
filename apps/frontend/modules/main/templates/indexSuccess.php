@@ -132,7 +132,11 @@
             <?php endif; ?>
                 <td width="175" align="center">
                     <a href="<?php echo url_for('portfolio_show', $work); ?>">
-                        <img src="<?php echo $work->getImage(); ?>" width="165" height="198" alt="<?php echo $work->getName(); ?>" />
+                        <?php if($work->getImage()): ?>
+                            <img class="img_work" src="<?php echo sfConfig::get('app_userfiles_path').$work->getImage(); ?>" alt="<?php echo $work->getName(); ?>" />
+                        <?php else: ?>
+                            <img class="img_work" src="<?php echo sfConfig::get('app_default_workimage_path'); ?>" alt="<?php echo $work->getName(); ?>" />
+                        <?php endif; ?>
                     </a>
                 </td>
             <?php if( ($i+1) % 3 == 0): ?>

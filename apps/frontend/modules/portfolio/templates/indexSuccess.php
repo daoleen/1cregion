@@ -21,7 +21,7 @@
             <?php endif; ?>
             
             <?php if($works[$i]->getImage()): ?>
-                <img class="img_work" src="<?php echo '/uploads/UserFiles/'.$works[$i]->getImage(); ?>" alt="<?php echo $works[$i]->getName(); ?>" />
+                <img class="img_work" src="<?php echo sfConfig::get('app_userfiles_path').$works[$i]->getImage(); ?>" alt="<?php echo $works[$i]->getName(); ?>" />
             <?php else: ?>
                 <img class="img_work" src="<?php echo sfConfig::get('app_default_workimage_path'); ?>" alt="<?php echo $works[$i]->getName(); ?>" />
             <?php endif; ?>
