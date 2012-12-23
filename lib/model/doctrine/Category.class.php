@@ -26,4 +26,20 @@ class Category extends BaseCategory
                 ->andWhere('p.user_id = ?', $user_id);
         return $q->execute();
     }
+    
+    
+    /**
+     * Получение топ {$limit}-фрилансеров для текущей категории
+     * @param int $limit
+     * @return Doctrine_Collection<Account>
+     */
+    public function getTopUsersByCategory($limit)
+    {
+        $q = AccountTable::getInstance()->createQuery('a')
+                ->where('a.Categories.id=?',$this->getId())
+                ->limit($limit)
+                ->orderBy('a.rating desc');
+        // TODO: ADD a migration RATING to Account!!!
+        return $q->execute();
+    }
 }

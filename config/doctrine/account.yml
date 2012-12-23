@@ -11,6 +11,7 @@ Account:
     other_contacts: { type: string(255) }
     other_info: { type: string(1000) }
     avatar: { type: string(100) }
+    rating: { type: integer, notnull: true, default: 0 }
   indexes:
     city_idx:
       fields: [country_id, city_id, region_id]
