@@ -13,3 +13,4 @@ lib/model/map/*
 capifony/*
 error.log
 config/deploy.rb
+/nbproject/private/
