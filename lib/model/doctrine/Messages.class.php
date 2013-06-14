@@ -66,4 +66,13 @@ class Messages extends BaseMessages
                 ->andWhere('m.from_id = ?', $from_id);
         return $q->execute();
     }
+    
+    
+    public static function getUnreadMessagesCount($user_id) {
+        $q = MessagesTable::getInstance()->createQuery('m')
+                ->where('m.to_id = ?', $user_id)
+                ->andWhere('m.is_read = ?', false)
+                ->count();
+        return $q;
+    }
 }

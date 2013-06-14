@@ -9,12 +9,18 @@
 <div id="navigation">
     <ul>
         <li><strong><?php echo $user->getUsername(); ?></strong></li>
-        <li><a href="<?php echo url_for('messages_contact_list', $user); ?>">Нет уведомлений</a></li>
-        <li><a href="#">Баланс: 0 руб.</a></li>
-        <li><a href="#">Бонусы: <?php echo $user->Bonus->getBonus(); ?></a></li>
-        <li>Отзывы: <a href="<?php echo url_for('feedback', $user); ?>"><span class="a_feedback"><?php echo $user->Feedbacks->count(); ?></span></a></li>
-        <!--<li><a href="#">Рейтинг: 0.8</a></li>-->
-        <li><a href="<?php echo url_for('@sf_guard_signout'); ?>" class="logout">Выход</a></li>
+        <?php if($user == $sf_user->getGuardUser()): ?>
+            <?php $new_messages = $user->getUnreadMessagesCount(); ?>
+            <li><a href="<?php echo url_for('messages_contact_list', $user); ?>"><?php echo ($new_messages == 0) ? "Нет уведомлений" : "Уведомления: {$new_messages}"; ?></a></li>
+            <li><a href="#">Баланс: 0 руб.</a></li>
+            <li><a href="#">Бонусы: <?php echo $user->Bonus->getBonus(); ?></a></li>
+            <li>Отзывы: <a href="<?php echo url_for('feedback', $user); ?>"><span class="a_feedback"><?php echo $user->Feedbacks->count(); ?></span></a></li>
+            <!--<li><a href="#">Рейтинг: 0.8</a></li>-->
+            <li><a href="<?php echo url_for('@sf_guard_signout'); ?>" class="logout">Выход</a></li>
+        <?php else: ?>
+            <li><a href="<?php echo url_for('messages_show', $user); ?>">Написать сообщение</a></li>
+            <li>Отзывы: <a href="<?php echo url_for('feedback', $user); ?>"><span class="a_feedback"><?php echo $user->Feedbacks->count(); ?></span></a></li>
+        <?php endif; ?>
     </ul>
 </div>
 
@@ -32,14 +38,14 @@
     <div id="main_info">
         <h3>Основная информация</h3>
         <table width="70%" align="left" border="0">
-            <tr>
+<!--            <tr>
                 <td>Заказчик:</td>
                 <td>(11.4) TODO</td>
             </tr>
             <tr>
                 <td>Фрилансер</td>
                 <td>(519) TODO</td>
-            </tr>
+            </tr>-->
             <tr>
                 <td>Проекты</td>
                 <td>38 TODO</td>

@@ -17,4 +17,9 @@ class sfGuardUser extends PluginsfGuardUser
                 ->where('u.username = ?', $username);
         return $query->fetchOne();
     }
+    
+    
+    public function getUnreadMessagesCount() {
+        return Messages::getUnreadMessagesCount($this->getId());
+    }
 }
